@@ -129,3 +129,10 @@ hces:
 osm:
   kirana_like: [convenience, general, kiosk, grocery, variety_store]
   modern_trade: [supermarket, department_store]
+
+# A7: warehouse and district scoring. Both numbers are modelling choices, see docs/assumptions.md.
+scoring:
+  household_size: 4.4        # persons per household, turns per-person spend into a household budget
+  pack_cover_fraction: 0.25  # a pack should cost about this share of a household's monthly spend
+                             # in the category (about one week), so poorer districts get smaller packs
+  pack_fit_max_ratio: 1.6    # a brand pack is a fit when its price is within this factor of the target
