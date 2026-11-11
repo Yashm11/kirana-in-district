@@ -1,4 +1,4 @@
-.PHONY: setup a0 a1 a2 a3 a3b a4 a5 a5-district a6 app check test lint all
+.PHONY: setup a0 a1 a2 a3 a3b a3c a0-osm a4 a5 a5-district a6 app check test lint all
 
 setup:
 	uv sync
@@ -30,6 +30,13 @@ a3:
 # HCES quantities: unit prices and monthly quantity per household (state x rural/urban)
 a3b:
 	uv run python -m src.analytics.a3b_hces_unit_values
+
+# OSM shops per district (needs `make a0-osm`, a 1.7 GB download, and `make a6` for populations)
+a0-osm:
+	uv run python -m src.data.download_osm
+
+a3c:
+	uv run python -m src.analytics.a3c_kirana_density
 
 a4:
 	uv run python -m src.analytics.a4_cluster_districts

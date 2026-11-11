@@ -123,3 +123,9 @@ hces:
   # Survey weight `mult` is divided by this to get household / person counts. Checked in A3:
   # sum(household size x mult) / 100 = about 1.21 billion people for India.
   weight_divisor: 100
+
+# A3c: OpenStreetMap shops per district. `kirana_like` are small general-store tags,
+# `modern_trade` are supermarkets and department stores. Values of the OSM `shop` key.
+osm:
+  kirana_like: [convenience, general, kiosk, grocery, variety_store]
+  modern_trade: [supermarket, department_store]
