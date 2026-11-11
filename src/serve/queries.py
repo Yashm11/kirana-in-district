@@ -5,6 +5,7 @@ dashboard and the language-model tools (Phase 4) answer from exactly the same co
 carry `poly_id`, the key the map uses to highlight districts.
 """
 
+import os
 import re
 from pathlib import Path
 
@@ -12,7 +13,7 @@ import duckdb
 import pandas as pd
 
 from src.utils.names import normalise_name
-from src.utils.paths import get_dir
+from src.utils.paths import REPO_ROOT, get_dir
 
 CATEGORY_WORDS = {
     "biscuits": ["biscuit", "biscuits", "cookies"],
@@ -54,9 +55,18 @@ def resolve_states(con: duckdb.DuckDBPyConnection, names: list[str] | None) -> l
     return list(dict.fromkeys(s for s in out if s))
 
 
+def warehouse_path() -> Path:
+    """$KID_DB if set, else the full warehouse if built here, else the slim committed copy."""
+    if os.environ.get("KID_DB"):
+        return Path(os.environ["KID_DB"])
+    full = get_dir("processed").parent / "warehouse" / "kid.duckdb"
+    slim = REPO_ROOT / "app_data" / "kid.duckdb"
+    return full if full.exists() else slim
+
+
 def connect(path: Path | None = None) -> duckdb.DuckDBPyConnection:
     """Open the warehouse read-only."""
-    path = path or get_dir("processed").parent / "warehouse" / "kid.duckdb"
+    path = path or warehouse_path()
     if not path.exists():
         raise FileNotFoundError(f"{path} not found. Run `make a7` first.")
     return duckdb.connect(str(path), read_only=True)
