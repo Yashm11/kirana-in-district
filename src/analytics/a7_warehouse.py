@@ -4,7 +4,8 @@ Run: uv run python -m src.analytics.a7_warehouse     (or `make a7`)
 
 Reads : data/processed/ district_clusters.parquet, map_match_report.csv, kirana_density.csv,
         products_clean.parquet, price_ladders.csv, hces_unit_values.csv
-Writes: data/warehouse/kid.duckdb with
+Writes: app_data/kid.duckdb  slim copy without dim_product, committed for the hosted app
+        data/warehouse/kid.duckdb with
           dim_district            706 NFHS-5 districts, polygon id, population, cluster, OSM density
           dim_product             cleaned BigBasket listings
           fact_price_ladder       median price per brand x pack size
@@ -20,12 +21,14 @@ How a pack is chosen (same rule for every category)
 Score = percentile rank of monthly demand (spend per person x population) within the category.
 """
 
+from pathlib import Path
+
 import duckdb
 import numpy as np
 import pandas as pd
 
 from src.utils.log import get_logger
-from src.utils.paths import get_dir, load_config
+from src.utils.paths import REPO_ROOT, get_dir, load_config
 
 log = get_logger(__name__)
 
@@ -126,6 +129,32 @@ def brand_recommendations(
     return pd.concat(out, ignore_index=True)
 
 
+APP_TABLES = [
+    "dim_district",
+    "fact_price_ladder",
+    "fact_unit_values",
+    "fact_district_category",
+    "rec_brand_district",
+]
+
+
+def export_app_db(full: Path, out: Path) -> None:
+    """Copy the tables the dashboard needs into a slim database that is safe to publish.
+
+    Leaves out dim_product (the scraped retailer listings with product names and URLs). What
+    remains is district-level and brand-level aggregates, which is also all that HCES-derived
+    numbers may be published as.
+    """
+    out.parent.mkdir(exist_ok=True)
+    out.unlink(missing_ok=True)
+    con = duckdb.connect(str(out))
+    con.execute(f"ATTACH '{full}' AS src (READ_ONLY)")
+    for t in APP_TABLES:
+        con.execute(f"CREATE TABLE {t} AS SELECT * FROM src.{t}")
+    con.execute("DETACH src")
+    con.close()
+
+
 def main() -> None:
     cfg = load_config()
     sc = cfg["scoring"]
@@ -168,6 +197,9 @@ def main() -> None:
         log.info("%s: %d rows", name, len(df))
     con.close()
     print(f"\nWrote {path} ({path.stat().st_size / 1e6:.1f} MB)")
+    slim = REPO_ROOT / "app_data" / "kid.duckdb"
+    export_app_db(path, slim)
+    print(f"Wrote {slim} ({slim.stat().st_size / 1e6:.1f} MB), the copy the hosted app reads")
 
 
 if __name__ == "__main__":

@@ -122,3 +122,24 @@ def test_rules_backend_passes_every_easy_eval_question() -> None:
     res = run("rules")
     assert res[res["difficulty"] == "easy"]["passed"].all(), res[~res["passed"]]
     assert len(res) >= 30
+
+
+def test_slim_app_database_has_no_scraped_listings() -> None:
+    """The committed copy that the hosted app reads must not carry product names or URLs."""
+    import duckdb
+
+    from src.utils.paths import REPO_ROOT
+
+    con = duckdb.connect(str(REPO_ROOT / "app_data" / "kid.duckdb"), read_only=True)
+    tables = {r[0] for r in con.execute("SHOW TABLES").fetchall()}
+    assert tables == {
+        "dim_district",
+        "fact_price_ladder",
+        "fact_unit_values",
+        "fact_district_category",
+        "rec_brand_district",
+    }
+    for t in tables:
+        cols = {r[0] for r in con.execute(f"DESCRIBE {t}").fetchall()}
+        assert not cols & {"url", "product_name", "brand_raw"}, (t, cols)
+    assert con.execute("SELECT count(*) FROM dim_district").fetchone()[0] == 706

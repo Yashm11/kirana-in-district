@@ -7,11 +7,10 @@ Plain plotly Choropleth traces on the LGD polygons, no tiles and no base map. On
 import pandas as pd
 import plotly.graph_objects as go
 
-from src.utils.geo import NO_DATA_GREY
-
 # ordered light to dark: small packs to large packs (blue, readable on light and dark themes)
 PACK_COLOURS = ["#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#08519c", "#08306b", "#041f4a"]
 DIM_OPACITY = 0.22
+NO_DATA_GREY = "#dddcd6"  # same grey as the v1 maps; not imported so the app stays light
 
 
 def pack_colours(labels_in_size_order: list[str]) -> dict[str, str]:

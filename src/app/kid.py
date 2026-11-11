@@ -103,7 +103,7 @@ def main() -> None:
     left, right = st.columns([3, 2])
     label = f"{brand or 'Standard'} packs for {category.replace('_', ' ')}"
     with left:
-        st.plotly_chart(pack_map(geojson(), p, highlight, label), use_container_width=True)
+        st.plotly_chart(pack_map(geojson(), p, highlight, label), width="stretch")
         if highlight:
             st.caption(f"{len(highlight)} districts highlighted")
     with right:
@@ -118,7 +118,7 @@ def main() -> None:
                 }
             )[["pack", "price (Rs)", "districts", "% of people"]],
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
         weak = int((~p["fits"]).sum())
         if weak > len(p) / 2:
