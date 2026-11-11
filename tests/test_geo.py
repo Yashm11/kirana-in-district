@@ -3,7 +3,12 @@
 import pandas as pd
 import pytest
 
-from src.utils.geo import aggregate, choropleth_figure, match_to_polygons
+from src.utils.geo import (
+    aggregate,
+    choropleth_figure,
+    match_to_polygons,
+    read_boundary_overrides,
+)
 
 
 def test_match_uses_state_and_spelling_map() -> None:
@@ -21,7 +26,7 @@ def test_match_uses_state_and_spelling_map() -> None:
             "state_code": [29, 10, 27, 10],
         }
     )
-    out = match_to_polygons(feats, polys)
+    out = match_to_polygons(feats, polys, source="datameet2011")
     assert out["poly_id"].isna().tolist() == [False, False, False, True]  # "Nowhere" is not drawn
     assert out.loc[out["district"] == "Aurangabad", "poly_id"].tolist() == ["p1", "p2"]
 
@@ -68,3 +73,19 @@ def test_choropleth_figure_has_dropdown_and_grey_base() -> None:
         geojson, frame, "poly_id", {"Cluster": metrics["Cluster"]}, "hover", "t", 2, dropdown=False
     )
     assert not single.layout.updatemenus
+
+
+def test_lgd_name_map_targets_exist_and_are_unique() -> None:
+    """Every hand-made LGD spelling points at a real polygon, and no polygon is claimed twice."""
+    from src.utils.geo import DEFAULT_SOURCE, load_polygons
+    from src.utils.paths import get_dir
+
+    if not (get_dir("raw") / "boundaries" / "lgd" / "LGD_Districts.parquet").exists():
+        pytest.skip("LGD boundaries not downloaded")
+    polys = load_polygons(simplify=None, source=DEFAULT_SOURCE)
+    assert polys["poly_id"].is_unique
+    overrides = read_boundary_overrides(DEFAULT_SOURCE)
+    keys_by_state = set(zip(polys["state_code"], polys["key"], strict=True))
+    targets = set(overrides.values())
+    assert targets <= {k for _, k in keys_by_state}
+    assert len(targets) == len(overrides)
