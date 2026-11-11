@@ -1,4 +1,4 @@
-.PHONY: setup a0 a1 a2 a3 a3b a3c a0-osm a4 a5 a5-district a6 app check test lint all
+.PHONY: setup a0 a1 a2 a3 a3b a3c a0-osm a4 a5 a5-district a6 a7 app check test lint all
 
 setup:
 	uv sync
@@ -53,10 +53,14 @@ a5-district:
 a6:
 	uv run python -m src.analytics.a6_maps
 
+# DuckDB warehouse and district scoring
+a7:
+	uv run python -m src.analytics.a7_warehouse
+
 test:
 	uv run pytest
 
 lint:
 	uv run ruff check .
 
-all: a0 a1 a2 a3 a3b a4 a5 a6
+all: a0 a1 a2 a3 a3b a4 a5 a6 a7
