@@ -16,6 +16,7 @@ import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
+from src.serve import assistant  # noqa: E402
 from src.serve import queries as q  # noqa: E402
 from src.serve.mapfig import pack_map  # noqa: E402
 from src.utils.paths import get_dir  # noqa: E402
@@ -39,13 +40,16 @@ def plan(category: str, brand: str | None) -> pd.DataFrame:
 
 
 def apply_question() -> None:
-    """Fill the pickers from the question box (runs before the widgets are drawn)."""
-    parsed = q.parse_query(warehouse(), st.session_state.get("question", ""))
-    if parsed["category"]:
-        st.session_state["category"] = parsed["category"]
-    st.session_state["brand"] = parsed["brand"] or "(all brands)"
-    st.session_state["states"] = parsed["states"]
-    st.session_state["top_n"] = parsed["top_n"] or 0
+    """Answer the question box and fill the pickers from the answer (runs before the widgets)."""
+    ans = assistant.ask(
+        warehouse(), st.session_state.get("question", ""), st.session_state.get("backend", "rules")
+    )
+    st.session_state["answer"] = ans
+    if ans.category:
+        st.session_state["category"] = ans.category
+    st.session_state["brand"] = ans.brand or "(all brands)"
+    st.session_state["states"] = q.resolve_states(warehouse(), ans.states)
+    st.session_state["top_n"] = ans.top_n or 0
 
 
 def main() -> None:
@@ -59,6 +63,12 @@ def main() -> None:
         "Which pack size, at what price, should go to which district. Built on household "
         "spend (HCES 2022-23), NFHS-5 district profiles, BigBasket price ladders and OSM shops."
     )
+    backends = {"Rules (no model)": "rules"}
+    if assistant.ollama_available():
+        backends[f"Local model ({assistant.DEFAULT_MODEL})"] = f"ollama:{assistant.DEFAULT_MODEL}"
+    if len(backends) > 1:
+        st.radio("Answered by", list(backends), horizontal=True, key="backend_label")
+    st.session_state["backend"] = backends.get(st.session_state.get("backend_label"), "rules")
     st.text_input(
         "Ask a question",
         key="question",
@@ -66,6 +76,8 @@ def main() -> None:
         on_change=apply_question,
     )
 
+    if "answer" in st.session_state:
+        st.info(st.session_state["answer"].text)
     cats = q.categories(con)
     st.session_state.setdefault("category", cats[0])
     c1, c2, c3 = st.columns(3)
@@ -84,15 +96,9 @@ def main() -> None:
     state_pick = d1.multiselect("Highlight states", q.states(con), key="states")
     top_n = d2.number_input("Top N districts by demand", 0, 200, key="top_n", help="0 = off")
 
-    highlight: set[str] = set()
-    if state_pick:
-        highlight |= set(p.loc[p["state"].isin(state_pick), "poly_id"])
-    if pack_pick != "(any)":
-        by_pack = set(p.loc[p["pack_label"] == pack_pick, "poly_id"])
-        highlight = highlight & by_pack if state_pick else by_pack
-    if top_n:
-        top = set(p.nlargest(int(top_n), "score")["poly_id"])
-        highlight = highlight & top if highlight else top
+    highlight = q.select_districts(
+        p, state_pick, int(top_n) or None, None if pack_pick == "(any)" else pack_pick
+    )
 
     left, right = st.columns([3, 2])
     label = f"{brand or 'Standard'} packs for {category.replace('_', ' ')}"

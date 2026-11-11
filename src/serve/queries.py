@@ -29,6 +29,31 @@ CATEGORY_WORDS = {
 }
 
 
+# what people type -> the state name as it is spelled in the warehouse (NFHS-5 spellings)
+STATE_ALIASES = {
+    "delhi": "NCT of Delhi",
+    "new delhi": "NCT of Delhi",
+    "maharashtra": "Maharastra",
+    "orissa": "Odisha",
+    "pondicherry": "Puducherry",
+    "uttaranchal": "Uttarakhand",
+    "jammu and kashmir": "Jammu & Kashmir",
+    "j&k": "Jammu & Kashmir",
+    "andaman and nicobar islands": "Andaman & Nicobar Islands",
+    "andaman and nicobar": "Andaman & Nicobar Islands",
+    "dadra and nagar haveli": "Dadra and Nagar Haveli & Daman and Diu",
+    "daman and diu": "Dadra and Nagar Haveli & Daman and Diu",
+}
+
+
+def resolve_states(con: duckdb.DuckDBPyConnection, names: list[str] | None) -> list[str]:
+    """Warehouse spellings for user-typed state names; names that match nothing are dropped."""
+    known = {normalise_name(s): s for s in states(con)}
+    known.update({normalise_name(a): v for a, v in STATE_ALIASES.items()})
+    out = [known.get(normalise_name(n)) for n in names or []]
+    return list(dict.fromkeys(s for s in out if s))
+
+
 def connect(path: Path | None = None) -> duckdb.DuckDBPyConnection:
     """Open the warehouse read-only."""
     path = path or get_dir("processed").parent / "warehouse" / "kid.duckdb"
@@ -102,6 +127,39 @@ def pack_plan(
         pack_label(t, b) for t, b in zip(df["pack_total"], df["pack_basis"], strict=True)
     ]
     return df
+
+
+def select_districts(
+    plan: pd.DataFrame,
+    states: list[str] | None = None,
+    top_n: int | None = None,
+    pack: str | None = None,
+) -> set[str]:
+    """poly_ids matching ALL given filters: states, one pack label, then the top N by demand score
+    within what is left (so "top 5 in Bihar" is Bihar's five).
+
+    No filter at all returns an empty set, which the map reads as "highlight nothing special".
+    """
+    scope = plan
+    if states:
+        scope = scope[scope["state"].isin(states)]
+    if pack:
+        scope = scope[scope["pack_label"] == pack]
+    if top_n:
+        scope = scope.nlargest(int(top_n), "score")
+    return set(scope["poly_id"]) if (states or pack or top_n) else set()
+
+
+def find_district(
+    con: duckdb.DuckDBPyConnection, name: str, state: str | None = None
+) -> str | None:
+    """poly_id of the district whose normalised name equals `name` (state narrows ties)."""
+    df = con.execute("SELECT poly_id, state, district FROM dim_district").df()
+    key = normalise_name(name)
+    hit = df[df["district"].map(normalise_name) == key]
+    if state:
+        hit = hit[hit["state"].map(normalise_name) == normalise_name(state)]
+    return hit["poly_id"].iloc[0] if len(hit) else None
 
 
 def pack_label(total: float | None, basis: str | None) -> str:
@@ -181,7 +239,11 @@ def parse_query(con: duckdb.DuckDBPyConnection, text: str) -> dict:
         cats = brand_categories(con, brand)
         category = cats[0] if cats else None
     known = {normalise_name(s): s for s in states(con)}
-    found = [s for k, s in known.items() if f" {k} " in " " + normalise_name(text) + " "]
+    known.update({normalise_name(a): v for a, v in STATE_ALIASES.items()})
+    padded = " " + normalise_name(text) + " "
+    found = sorted(
+        set(s for k, s in sorted(known.items(), key=lambda kv: -len(kv[0])) if f" {k} " in padded)
+    )  # noqa: E501
     m = re.search(r"top\s+(\d+)", t)
     return {
         "brand": brand,

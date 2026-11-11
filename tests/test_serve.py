@@ -77,3 +77,48 @@ def test_dashboard_runs_and_answers_a_question() -> None:
     assert at.selectbox(key="category").value == "noodles_pasta"
     assert at.selectbox(key="brand").value == "Maggi"
     assert at.multiselect(key="states").value == ["Bihar"]
+
+
+def test_ollama_backend_loops_through_tool_calls(monkeypatch) -> None:
+    """A fake model first asks for pack_plan, then answers from the tool result."""
+    from src.serve import assistant
+
+    steps = iter(
+        [
+            {"role": "assistant", "tool_calls": [{"function": {"name": "pack_plan", "arguments": {
+                "category": "noodles_pasta", "brand": "Maggi", "states": ["Maharashtra"]}}}]},
+            {"role": "assistant", "content": "Send the 140 g pack."},
+        ]
+    )  # fmt: skip
+    monkeypatch.setattr(assistant, "_chat", lambda model, messages, timeout=120: next(steps))
+    ans = assistant.ask(q.connect(), "Maggi in Maharashtra?", "ollama:fake")
+    assert ans.text == "Send the 140 g pack."
+    assert ans.states == ["Maharashtra"] and ans.brand == "Maggi"
+    assert len(ans.highlight) > 20  # Maharashtra's districts, from the alias-resolved state
+
+
+@needs_warehouse
+def test_state_aliases_resolve_to_warehouse_spelling() -> None:
+    con = q.connect()
+    assert q.resolve_states(con, ["Delhi", "maharashtra", "Orissa", "Atlantis"]) == [
+        "NCT of Delhi",
+        "Maharastra",
+        "Odisha",
+    ]
+
+
+@needs_warehouse
+def test_top_n_ranks_inside_the_selected_state() -> None:
+    p = q.pack_plan(q.connect(), "tea")
+    chosen = q.select_districts(p, ["Bihar"], 5)
+    assert len(chosen) == 5
+    assert set(p[p["poly_id"].isin(chosen)]["state"]) == {"Bihar"}
+
+
+@needs_warehouse
+def test_rules_backend_passes_every_easy_eval_question() -> None:
+    from src.serve.eval import run
+
+    res = run("rules")
+    assert res[res["difficulty"] == "easy"]["passed"].all(), res[~res["passed"]]
+    assert len(res) >= 30
