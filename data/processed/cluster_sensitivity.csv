@@ -1,0 +1,16 @@
+variant,ari_vs_baseline,stable
+k=3,0.7798877083552065,True
+k=5,0.4502566510662453,False
+without electricity_pct,0.8847911661825925,True
+without improved_water_pct,0.39510684900189086,False
+without improved_sanitation_pct,0.8645446724567225,True
+without clean_fuel_pct,0.7845702978841548,True
+without women_literate_pct,0.4822759371860125,False
+without women_10yr_school_pct,0.859780889768598,True
+without female_ever_school_pct,0.587392229886666,False
+without pop_below_15_pct,0.8058333890284143,True
+without stunted_pct,0.8247176030865013,True
+without women_low_bmi_pct,0.5328265825883656,False
+without women_overweight_pct,0.7748196506685097,True
+without health_insurance_pct,0.9128406803673025,True
+without urban_share,0.8399554365128544,True

@@ -1,0 +1,15 @@
+polygon_district,polygon_state,modern_state_code,note
+Adilabad,Andhra Pradesh,36,Telangana (2011 file still lists it under Andhra Pradesh)
+Hyderabad,Andhra Pradesh,36,Telangana
+Karimnagar,Andhra Pradesh,36,Telangana
+Khammam,Andhra Pradesh,36,Telangana
+Mahbubnagar,Andhra Pradesh,36,Telangana
+Medak,Andhra Pradesh,36,Telangana
+Nalgonda,Andhra Pradesh,36,Telangana
+Nizamabad,Andhra Pradesh,36,Telangana
+Rangareddy,Andhra Pradesh,36,Telangana
+Warangal,Andhra Pradesh,36,Telangana
+Leh(Ladakh),Jammu & Kashmir,37,Ladakh (2011 file lists it under Jammu & Kashmir)
+Kargil,Jammu & Kashmir,37,Ladakh
+Dadra & Nagar Haveli,Dadara & Nagar Havelli,25,merged UT Dadra & Nagar Haveli and Daman & Diu
+Data Not Available,Jammu & Kashmir,1,unnamed polygon in the J&K area (code 99 in the file); no data

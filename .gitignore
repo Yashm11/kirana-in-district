@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Raw and intermediate data are recreated by the download scripts (never commit)
+data/raw/
+data/interim/
+
+# Tooling caches
+.ipynb_checkpoints/
+.ruff_cache/
+.pytest_cache/
+
+# macOS
+.DS_Store

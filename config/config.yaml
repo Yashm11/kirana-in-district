@@ -1,0 +1,125 @@
+# Central settings for every pipeline stage. Paths are relative to the repo root.
+
+random_seed: 42
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  figures: reports/figures
+  docs: docs
+  config: config
+
+# Files written/read by each stage (names only; folders come from `paths`)
+files:
+  bigbasket_raw_dir: bigbasket          # inside data/raw/
+  off_india_raw: off_india.parquet      # inside data/raw/
+  products_clean: products_clean.parquet
+  products_unparsed: products_unparsed.csv
+  price_ladders: price_ladders.csv
+  pack_premium: pack_premium.csv
+  pack_premium_category: pack_premium_category.csv
+  entry_price_points: entry_price_points.csv
+  ladder_gaps: ladder_gaps.csv
+  discount_depth: discount_depth.csv
+  district_features: district_features.parquet
+  district_name_map: district_name_map.csv
+  district_clusters: district_clusters.parquet
+  cluster_profiles: cluster_profiles.csv
+  cluster_sensitivity: cluster_sensitivity.csv
+  recommendations: recommendations.csv
+
+# Target product categories (11). The SubCategory -> target mapping lives in
+# config/category_map.csv (first version proposed in Step 3, logged in docs/assumptions.md).
+target_categories:
+  - biscuits
+  - namkeen_snacks
+  - noodles_pasta
+  - tea
+  - edible_oil_ghee
+  - atta_flour
+  - rice
+  - spices_masala
+  - laundry_detergent
+  - personal_wash
+  - shampoo
+
+# Thresholds
+thresholds:
+  ladder_gap_ratio: 2.5        # flag steps between neighbouring pack sizes larger than this
+  min_packs_per_ladder: 2      # need at least this many distinct pack sizes to build a ladder
+  max_highlighted_brands: 5    # brands drawn in colour on each ladder chart (rest grey)
+  pca_variance_target: 0.85    # keep ~80-90% of variance
+  kmeans_k_min: 4
+  kmeans_k_max: 8
+
+# A3-A5 settings. Fill the TODOs after the manual files are downloaded and inspected.
+a3:
+  # Folder names inside data/raw/ (created by `make a0` / check_manual_files)
+  nfhs5_dir: nfhs5
+  census_dir: census_2011
+  hces_dir: hces_2022_23
+  # NFHS-5 indicators we use: short name -> text that appears in exactly one column header.
+  # (Headers carry glued-on footnote numbers, e.g. "cooking3 (%)", so we match on a fragment.)
+  nfhs5_indicators:
+    electricity_pct: "Population living in households with electricity"
+    improved_water_pct: "improved drinking-water source"
+    improved_sanitation_pct: "improved sanitation facility"
+    clean_fuel_pct: "Households using clean fuel for cooking"
+    women_literate_pct: "who are literate"
+    women_10yr_school_pct: "10 or more years of schooling"
+    female_ever_school_pct: "who ever attended school"
+    pop_below_15_pct: "Population below age 15"
+    stunted_pct: "who are stunted"
+    women_low_bmi_pct: "Body Mass Index (BMI) is below normal"
+    women_overweight_pct: "who are overweight or obese"
+    health_insurance_pct: "health insurance"
+
+clustering:
+  # Cluster numbers are arbitrary in KMeans, so they are renumbered: 0 = lowest mean of this
+  # feature, then increasing. Keeps cluster ids meaningful and the same on every run.
+  order_by: clean_fuel_pct
+  # district_features columns to cluster on: the NFHS-5 indicators plus urban share. Spend is
+  # state-level, so it is NOT used for clustering (it would just group districts by state).
+  feature_columns:
+    - electricity_pct
+    - improved_water_pct
+    - improved_sanitation_pct
+    - clean_fuel_pct
+    - women_literate_pct
+    - women_10yr_school_pct
+    - female_ever_school_pct
+    - pop_below_15_pct
+    - stunted_pct
+    - women_low_bmi_pct
+    - women_overweight_pct
+    - health_insurance_pct
+    - urban_share
+
+opportunity:
+  # `state` (default, follows the HCES data note) or `district` (exploratory). Can also be set with
+  # `python -m src.analytics.a5_whitespace --spend-level district`.
+  spend_level: state
+  # Benchmark = the cluster with the highest spend per capita in that category
+  benchmark: max
+  # target category -> spend-per-person column in district_features (built by A3 from HCES)
+  spend_columns:
+    biscuits: spend_pc_biscuits
+    namkeen_snacks: spend_pc_namkeen_snacks
+    noodles_pasta: spend_pc_noodles_pasta
+    tea: spend_pc_tea
+    edible_oil_ghee: spend_pc_edible_oil_ghee
+    atta_flour: spend_pc_atta_flour
+    rice: spend_pc_rice
+    spices_masala: spend_pc_spices_masala
+    laundry_detergent: spend_pc_laundry_detergent
+    personal_wash: spend_pc_personal_wash
+    shampoo: spend_pc_shampoo
+
+hces:
+  # Exploratory district-level spend is only kept for districts with at least this many sampled
+  # households (the survey is not designed for district estimates; see docs/assumptions.md)
+  district_min_households: 100
+  # Survey weight `mult` is divided by this to get household / person counts. Checked in A3:
+  # sum(household size x mult) / 100 = about 1.21 billion people for India.
+  weight_divisor: 100

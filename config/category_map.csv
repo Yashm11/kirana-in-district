@@ -1,0 +1,36 @@
+subcategory,target_category
+Cream Biscuits & Wafers,biscuits
+Cookies,biscuits
+"Marie, Health, Digestive",biscuits
+Glucose & Milk Biscuits,biscuits
+Salted Biscuits,biscuits
+Namkeen & Savoury Snacks,namkeen_snacks
+Chips & Corn Snacks,namkeen_snacks
+Instant Noodles,noodles_pasta
+Hakka Noodles,noodles_pasta
+Pasta & Macaroni,noodles_pasta
+Instant Pasta,noodles_pasta
+Leaf & Dust Tea,tea
+Tea Bags,tea
+Green Tea,tea
+Exotic & Flavoured Tea,tea
+"Sunflower, Rice Bran Oil",edible_oil_ghee
+Blended Cooking Oils,edible_oil_ghee
+Cooking Coconut Oil,edible_oil_ghee
+Gingelly Oil,edible_oil_ghee
+Ghee & Vanaspati,edible_oil_ghee
+"Atta Whole Wheat",atta_flour
+"Sooji, Maida & Besan",atta_flour
+Rice & Other Flours,atta_flour
+Raw Rice,rice
+Boiled & Steam Rice,rice
+Basmati Rice,rice
+Blended Masalas,spices_masala
+Powdered Spices,spices_masala
+Whole Spices,spices_masala
+"Detergent Powder, Liquid",laundry_detergent
+"Fabric Pre, Post Wash",laundry_detergent
+Bathing Bars & Soaps,personal_wash
+Shower Gel & Body Wash,personal_wash
+Hand Wash & Sanitizers,personal_wash
+Shampoo & Conditioner,shampoo

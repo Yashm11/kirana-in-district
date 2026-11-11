@@ -1,0 +1,152 @@
+target_category,brand,n_products,entry_price_rs,entry_pack,product_name
+atta_flour,Super Saver,8,21.0,500 g,Ragi Flour/Ragi Hittu
+atta_flour,BB Popular,3,22.0,500 g,Ragi Flour - High Source Of Iron & Calcium
+atta_flour,BB Royal,28,22.0,500 g,Rice - Flour
+atta_flour,Aashirvaad,9,40.0,500 g,Nature's Super Foods - Ragi Flour/Ragi Hittu
+atta_flour,Manna,1,89.25,1 kg,Multimillet (Multigrain) Atta
+biscuits,Britannia,5,5.0,27 g,"Tiger Cookies - Krunch Chocochips, Teatime Snack"
+biscuits,Cadbury Oreo,5,20.0,60 g,"Red Velvet Sandwich Biscuit - Limited Edition, Yummy Treat"
+biscuits,Tasties,8,21.0,75 g,Jeera Cookies
+biscuits,Unibic,20,24.0,75 g,Cookies - Chocolate Chip
+biscuits,Britannia Treat,1,25.0,60g,Vanilla Wafers
+biscuits,Dukes,8,25.0,60 g,"Waffy Wafers - Vanilla Flavoured, Creamy & Crunchy"
+biscuits,Cremica,1,42.0,500 g,Bourbon - More Crunchy & More Chocolaty Sandwich Biscuits
+biscuits,Sunfeast,10,51.5,150 g,Farmlite Biscuit - Cookies Oats & Almonds
+biscuits,Cadbury,5,61.6,150 g,Chocobakes Choc Filled Cookies
+biscuits,Open Secret,3,78.75,75 g,"Choco Almond Nutty Cookies - With No Maida, Healthy"
+biscuits,Unibic Foods,2,80.0,500 g,"Cookies - Orange Splash, Super Saver Pack"
+biscuits,Timios,1,295.0,8 pcs,"Fruit Fills - Apple Flavour, Made With Healthy, Nutritious Ingredients, Soft"
+edible_oil_ghee,Mr. Gold,1,177.0,1 L,Coconut Oil
+edible_oil_ghee,Fortune,2,181.0,1 L,Sun Lite - Sunflower Refined Oil
+edible_oil_ghee,Saffola,3,185.0,1 L,Gold Refined Cooking oil | Blended Rice Bran & Sunflower oil | Helps Keeps Heart Healthy
+edible_oil_ghee,Fiona,2,186.0,1 L,"Refined Sunflower Oil - Trans Fat Free, Healthy Cooking Oil"
+edible_oil_ghee,Nutriorg,1,247.5,500 ml,Certified Organic Sesame Oil .
+edible_oil_ghee,5:15PM,1,599.0,250 ml,"A2 Ghee - Desi Gir Cow, Handmade, Traditional Bilona Method, Pure, Natural & Healthy"
+edible_oil_ghee,Himalayan Natives,1,924.0,2 x 500 ml,Organic Bilona Cow Ghee
+laundry_detergent,Wild Ideas,1,50.0,200 g,Dish Wash Powder
+laundry_detergent,Born Good,11,125.58,450 ml,Shade Revive Plant Based Liquid Laundry Detergent
+laundry_detergent,Ariel,14,150.0,500 g,Matic Detergent Powder - Top Load
+laundry_detergent,Surf Excel,4,240.0,1 kg,Matic Top Load Detergent Powder
+laundry_detergent,Tropical Dew,4,244.3,450 ml,Fabric Conditioner
+laundry_detergent,PureCult,2,259.35,500 ml,Fabric Conditioner - Geranium & Lavender
+laundry_detergent,Henko,1,320.0,2 Kg,Matic Lintelligent Detergent Powder - Front Load
+laundry_detergent,Oxiclean,2,525.0,709 ml,Carpet & Area Rug Pet Stain & Odour Remover - Helps To Get Rid Of Tough Marks
+laundry_detergent,Koparo Clean,4,1874.25,5 L,"Fabric Conditioner - Fresh Cotton, Lily & Vanilla, Fresh Fragrance, Softens Clothes"
+namkeen_snacks,Bingo,7,10.0,33 g,"Mad Angles – Achaari Masti,Crunchy Triangle Chips Perfect for Snacking"
+namkeen_snacks,Tasties,27,12.0,50 g,Tasty Peanuts - Spice Coated
+namkeen_snacks,Too Yumm!,10,17.0,45 g,Potato Chips - Indian Masala
+namkeen_snacks,Befikar,1,20.0,100 g,High Protein Peanuts - Sweet Chilli Masala
+namkeen_snacks,Kari Kari,2,40.0,60 g,Snacks - Spice Mania
+namkeen_snacks,Tagz,1,48.0,42 g,Popped Potato Chips - Salt Trippin
+namkeen_snacks,Sanjay,1,50.0,100 g,Potato Chips
+namkeen_snacks,Tasties Origins,6,59.0,150 g,"Namkeen - Indori Mixture/Tikha Mitha Mixture, Teatime Snack"
+namkeen_snacks,Daadis,4,60.0,180 g,Indian Wheat Cracker - Masala Bhakhri
+namkeen_snacks,Piknik,2,60.0,60 g,"Classic Tomato Chilli - Made With Wheat Flour, 25% Less Oil, No Preservatives"
+namkeen_snacks,FruitTreat,1,67.5,40 g,Garlic Treat - Fried
+namkeen_snacks,A-1 Chips,1,70.0,100 g,Potato Finger Salt
+namkeen_snacks,5:15PM,1,240.0,400 g,"Yellow Banana Chips Snacks - Classic Salted Flavour, No Preservatives Added"
+namkeen_snacks,Urbantray,4,306.0,150 g,"Salted Almonds - Protein & Dietary Fibre Rich, Healthy Snack"
+noodles_pasta,Maggi,6,14.0,70 g,Masala Instant Noodles Vegetarian
+noodles_pasta,Top Ramen,2,25.0,70 g,Noodles - Curry Veg
+noodles_pasta,Sundrop,2,27.0,80 g,5 Min Yum Pasta - With Red Sauce
+noodles_pasta,Keya,4,70.0,400 g,Penne Pasta
+noodles_pasta,Blue Bird,2,94.5,500 g,Pasta - Elbow Macaroni
+noodles_pasta,Happy Panda,2,95.0,450 g,"Veg Hakka Noodles - Authentic Chinese, Hygienic & Non Sticky"
+noodles_pasta,San Vito,2,108.0,500 g,"Durum Wheat Penne Rigate, N.69"
+noodles_pasta,Slurrp Farm,4,122.55,192 g,"Little Millet Noodles - No Maida, Not Fried"
+noodles_pasta,WickedGud,1,187.5,450 g,"Amori Pasta - Goodness Of Chickpea, Red Lentil & Brown Rice, High Protein & Fibre"
+personal_wash,Godrej Protekt,5,15.0,9 g,"Mr. Magic - Powder To Liquid Germ Protection Handwash, Makes 200 ml"
+personal_wash,Hygienix,8,20.0,50 ml,Anti-Bacterial Hand Sanitizer
+personal_wash,BB Home,3,23.0,50 ml,"Hand Sanitizer - Mint & Lemon, Alcohol Based, Kills 99.99% Germs, Enriched with Moisturizer"
+personal_wash,Dettol,23,40.0,75 g,"Skincare Pure Glycerine Soap, Protection from Skin Infection Causing Germs"
+personal_wash,Khadi Natural,2,56.0,125 g,Pure Lavender Handmade Herbal Soap
+personal_wash,Dove,9,64.0,100 g,"Cream Beauty Bathing Bar, Has 1/4th Moisturizing Cream"
+personal_wash,Himalaya,3,71.25,250 ml,"Pure Hands Purifying Hand Wash - Tulsi, 99.9% Germ Protection, pH Balanced"
+personal_wash,Healthvit,1,87.5,75 g,Skin Whitening Soap - Bath & Body Glutathione
+personal_wash,Lifebuoy,2,89.0,750 ml,"Nature Germ Protection Handwash - Activ Silver Formula, Fights Infections"
+personal_wash,Palmolive,15,99.0,250 ml,"Naturals Liquid Hand Wash - Orchid & Milk, Wash Away Germs"
+personal_wash,Nivea,5,106.25,125 ml,Body Wash Gel - Frangipani & Oil Shower
+personal_wash,Liril,6,120.5,250 ml,Cooling Mint Body Wash
+personal_wash,Tree Secrets,2,129.0,125 g,Luxury Ayurvedic Soap - Turmeric & Saffron
+personal_wash,Pears,2,130.5,250 ml,Naturale Detoxifying Aloevera Bodywash
+personal_wash,Biotique,2,131.0,200 ml,Bio Apricot Refreshing Body Wash
+personal_wash,Fiama,8,146.5,250 ml,Shower Gel - Blackcurrant & Bearberry
+personal_wash,Fuschia,1,150.0,50 ml,Citrus Blast Orange Lemon Soap Free Body Wash
+personal_wash,Himalayan Natives,1,162.5,500 ml,"Handrub - Alcohol Based, Kills 99.9% Germs"
+personal_wash,Soulflower,23,187.5,100 g,Pure Strawberry Glycerine Soap
+personal_wash,Savlon,2,188.21,1.5 L,Moisture Shield Germ Protection Handwash - Protects from Million Germs
+personal_wash,Santoor,3,194.37,625 g,"Aloe Fresh Aloe Vera & Lime Soap, Clears Excess Oil & Hydrates Skin"
+personal_wash,Bodyguard,1,198.0,30 Wipes,Anti Bacterial Disinfectant Sanitising Wipes - Alcohol Free
+personal_wash,Fizzy Fern,4,221.25,125 g,Peppermint & Aloe Vera Soap
+personal_wash,Kaya Clinic,1,221.5,240 ml,Coconut & Tea Tree Oil Nourishing Body Wash
+personal_wash,Nyassa,5,243.0,150 g,Mandarin Citrus Handmade Soap
+personal_wash,JustHuman,1,245.0,100 ml,24-Hour Protection Hand Sanitizer Spray - Germ Protection Against Bacteria & Viruses
+personal_wash,Vedaearth,2,247.5,200 ml,"Nourishing Body Wash - For Normal Skin, Chamomile & Frankincense"
+personal_wash,Koparo Clean,1,269.4,500 ml,"Natural Body Wash - Mogra, Gel Douche, Hypoallergenic, Gluten-Free, Natural Formula"
+personal_wash,Margo,1,270.0,125 g,"Original Neem Soap - Loaded With Vitamin C, Moisturise Skin Deeply"
+personal_wash,Just Herbs,2,468.0,200 ml,Shatpatri - Wild Indian Rose Refreshing Body Wash
+rice,BB Popular,10,43.0,1 kg,New Rice/Akki - Sona Masoori
+rice,BB Royal,38,45.0,1 kg,Rice/Akki - Dosa
+rice,Super Saver,4,45.0,1 kg,Sona Masoori Raw Rice/Akki
+rice,Daawat,4,84.0,1 kg,Basmati Rice/Basmati Akki - Rozana Gold
+rice,Elina,1,84.0,1 kg,Long Grain Rice
+rice,India Gate,1,671.0,5 kg,Basmati Rice/Basmati Akki - Super
+shampoo,Clinic Plus,9,52.0,80 ml,Strong & Long Health Shampoo
+shampoo,Naturali,6,52.5,80 ml,"Dandruff Defence Shampoo - Moisturises, Scalp & Hair"
+shampoo,Pantene,25,54.5,90 ml,Advanced Haircare Solution Hair Shampoo - Lively Clean
+shampoo,Sunsilk,5,62.0,80 ml,"Stunning Black Shine Shampoo - With Amla + Oil, Pearl Protein & Vitamin E, For Long Lasting Shine"
+shampoo,Dove,26,67.5,80 ml,Damage Therapy Dandruff Care Conditioner
+shampoo,Loreal Paris,5,71.0,75 ml,"Total Repair 5 Advanced Repairing Shampoo - Damaged Hair, Fights 5 Signs of Damage"
+shampoo,Head & shoulders,26,72.0,72 ml,Smooth & Silky Anti-Dandruff Shampoo - Smooth Hair from Root to Tip
+shampoo,Meera,6,72.75,80 ml,Anti Dandruff Shampoo
+shampoo,Azafran,1,75.0,50 g,Organics Aqua Halo Rejuvenating Conditioner - For All Hair Types
+shampoo,TRESemme,16,75.0,80 ml,"Keratin Smooth Pro Collection Shampoo - Keratin & Argan Oil, Lower Sulphate Formula, Upto 100% Smoother Shiny Hair"
+shampoo,Himalaya,5,113.0,200 ml,Anti-Hair Fall Shampoo
+shampoo,Biotique,4,116.0,190 ml,"Fresh Daily Purifying Shampoo & Conditioner - Green Apple, For Oily Scalp & Hair"
+shampoo,Wow Skin Science,12,118.3,100 ml,"Apple Cider Vinegar Shampoo - No Parabens, pH Balances"
+shampoo,Richfeel,1,134.5,25 ml,Conditioner - Skin Logix Redefine Advance Night Repair Serum
+shampoo,Kesh King,3,140.0,200 ml,"Anti-Hairfall Conditioner - Aloe & 21 Ayurvedic Herbs, Silky, Shiny, Smooth Hair"
+shampoo,Sesa,3,140.0,200 ml,Ayurvedic Medicinal Shampoo - Hair Fall Control In 15 Days
+shampoo,Inatur,2,153.0,100 ml,Nutri-Repair Shampoo - Monoi Oil
+shampoo,Aroma Treasures,1,168.75,100 ml,"Tea Tree Shampoo - Patchouli & Aloe Vera, For Dandruff"
+shampoo,Kaya Clinic,2,174.0,200 ml,"Hair Anti-Dandruff Shampoo, Scalp Purifying Factor"
+shampoo,Stonesoup,1,192.0,100 g,Khaas Shampoo Bar - Beer
+shampoo,Mojocare,3,197.67,200 ml,"DHT Blocker Shampoo With Biotin, ACV, Onion Oil - Removes Dryness & Itchiness"
+shampoo,Khadi Natural,1,209.0,210 ml,"Herbal Hair Conditioner - Shikakai & Honey, For Thick Hair"
+shampoo,Regal Essence,1,221.63,300 ml,Red Onion Hair Shampoo
+shampoo,Avon,1,224.25,200 ml,Naturals Hair Care Ultimate Volume 2 In 1 Shampoo & Conditioner - Violet & Grapeseed
+shampoo,Dabur Vatika,4,267.0,640 ml,"Health Shampoo - Henna & Amla, For Problem Free Hair, 7 Satt Poshan"
+shampoo,Herbal Essences,2,268.0,240 ml,"Argan Oil Of Morocco Shampoo - For Hair Repair & No Frizz, No Paraben, No Colorants"
+shampoo,Sirona,3,271.0,200 ml,"Dandruff Control Conditioner - Repairs Damaged Hair, Locks In Moisture, Paraben-Free"
+shampoo,Vedaearth,1,287.5,200 ml,"Refreshing Shampoo - For Oily Hair, Rosemary & Peppermint"
+shampoo,Bold Care,2,299.5,200 ml,"Anti-Dandruff Shampoo - Nourishes Scalp, Reduces Dandruff, For Men"
+shampoo,Soulflower,3,300.0,250 ml,Pro Vitamin B5 1% Apple Cider Vinegar ph Balancing Conditioner - For Nourishment
+shampoo,Dabur,2,301.0,300 ml,"Vatika Select Shampoo - Red Onion Black Seed Oil, Hairfall Control"
+shampoo,Karthika,1,308.75,650 ml,"Hairfall Shield Shampoo - With Shikakai, For Shiny & Strong Hair"
+shampoo,Chik,1,334.6,650 ml,Anti Dandruff Shampoo - Fights Dandruff & Strengthens
+shampoo,Goli Soda,1,350.0,90 g,All Natural Probiotics Shampoo Bar - For Dry Hair
+shampoo,Organic Harvest,2,371.25,225 g,Daily Shampoo
+shampoo,Herbal Essence,3,390.0,400 ml,Bio Renew Repair Shampoo - Argan Oil of Morocco
+shampoo,Fizzy Fern,2,416.5,200 ml,"Nourishing & Thickening Conditioner - Argan Oil, Curry Leaf Extract & Veg Keratins"
+shampoo,Arata,1,472.0,300 ml,"Cleansing Shampoo - with Maple, Sugarcane & Blueberry Extracts"
+shampoo,StBotanica,1,1011.0,200 ml,Biotin & Collagen Volumizing Hair Shampoo + Hair Conditioner
+spices_masala,BB Popular,21,9.0,50 g,Mustard/Sasive - Big
+spices_masala,Keya,12,15.0,15 g,Amritsari Chhole Masala
+spices_masala,BB Royal,61,16.0,50 g,Coriander / Dhania Seeds
+spices_masala,Catch,17,18.2,25 g,Kasuri Methi - Enhances Flavour
+spices_masala,Ching'S Secret,1,48.0,100 g,Secret Schezwan Fried Rice Masala
+spices_masala,Eastern,3,57.75,100 g,Masala - Biryani
+spices_masala,Aashirvaad,2,60.0,100 g,Kashmiri Mirch Powder - Traditionally Sundried & Cleaned
+spices_masala,Valley Spice,1,95.0,50 g,Turmeric Milk Masala - Cardamom
+tea,Red Label,8,40.0,100 g,Tea
+tea,Tata Tea Gold,5,40.0,100 g,Tea
+tea,Taj Mahal,4,90.0,100 g,Rich & Flavourful Tea
+tea,Jawai,3,97.5,100 g,Rajwadi Kadak Masala Chai/Tea - Immunity Booster
+tea,Emperia,8,99.0,250 g,Kadak Tea
+tea,Teamonk,20,120.0,10 Teabags,"Black Tea - Bodh, Second Flush"
+tea,IndiSecrets,3,139.0,34 g,"Organic Tea - Infusion, Pure Tulsi"
+tea,Vahdam,13,140.0,30 g,Organic Earl Grey Green Tea Bags - With Bergamot Citrus
+tea,24 Mantra,1,170.0,37.5 g,Organic Tulsi Ginger Herbal Infusion Tea Bag
+tea,Dabur,2,175.0,37.5 g,Vedic Suraksha Green Tea
+tea,Kapiva,2,219.45,40 g,Rakshan Green Tea - Supports Strong Immunity
+tea,Teamonk Global,1,420.0,100 g,"Kumud Oolong Tea - May Help In Weight Management, Easy To Digest"
