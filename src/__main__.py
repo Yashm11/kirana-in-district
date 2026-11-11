@@ -6,6 +6,7 @@ STAGES = [
     ("a2", "src.analytics.a2_price_pack", "Price-pack analysis"),
     ("a3", "src.analytics.a3_district_features", "District features"),
     ("a3b", "src.analytics.a3b_hces_unit_values", "HCES unit prices and quantities"),
+    ("a3c", "src.analytics.a3c_kirana_density", "OSM kirana density per district"),
     ("a4", "src.analytics.a4_cluster_districts", "Cluster districts"),
     ("a5", "src.analytics.a5_whitespace", "Whitespace score and recommendations"),
 ]
