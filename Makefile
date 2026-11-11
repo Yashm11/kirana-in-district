@@ -1,4 +1,4 @@
-.PHONY: setup a0 a1 a2 a3 a3b a3c a0-osm a4 a5 a5-district a6 a7 app check test lint all
+.PHONY: setup a0 a1 a2 a3 a3b a3c a0-osm a4 a5 a5-district a6 a7 kid app check test lint all
 
 setup:
 	uv sync
@@ -56,6 +56,10 @@ a6:
 # DuckDB warehouse and district scoring
 a7:
 	uv run python -m src.analytics.a7_warehouse
+
+# K.I.D dashboard (needs `make a6 a7`)
+kid:
+	uv run streamlit run src/app/kid.py
 
 test:
 	uv run pytest
