@@ -1,707 +1,707 @@
 state,district,state_code,poly_id,population_est,cluster,drawn
-Andaman & Nicobar Islands,Nicobars,35,p637,39139.55,3,True
-Andaman & Nicobar Islands,North & Middle Andaman,35,p639,152699.48,3,True
-Andaman & Nicobar Islands,South Andaman,35,p638,213270.25,3,True
-Andhra Pradesh,Srikakulam,28,p549,2399141.28,2,True
-Andhra Pradesh,Vizianagaram,28,p606,1901521.3800000001,2,True
-Andhra Pradesh,Visakhapatnam,28,p605,3757923.12,2,True
-Andhra Pradesh,East Godavari,28,p168,6572628.399999999,3,True
-Andhra Pradesh,West Godavari,28,p614,3064382.3200000003,3,True
-Andhra Pradesh,Krishna,28,p322,4213948.32,3,True
-Andhra Pradesh,Guntur,28,p210,4227318.07,3,True
-Andhra Pradesh,Prakasam,28,p445,2626229.1,2,True
-Andhra Pradesh,Sri Potti Sriramulu Nello,28,p408,2260186.53,3,True
-Andhra Pradesh,Y.S.R.,28,p124,2710617.92,2,True
-Andhra Pradesh,Kurnool,28,p327,4426311.470000001,2,True
-Andhra Pradesh,Anantapur,28,p019,4283980.67,2,True
-Andhra Pradesh,Chittoor,28,p119,3543256.72,2,True
-Arunachal Pradesh,Tawang,12,p559,57245.259999999995,2,True
-Arunachal Pradesh,West Kameng,12,p615,99807.59,3,True
-Arunachal Pradesh,East Kameng,12,p169,51077.56,2,True
-Arunachal Pradesh,Papum Pare,12,p430,130748.18,3,True
-Arunachal Pradesh,Upper Subansiri,12,p593,49111.92,2,True
-Arunachal Pradesh,Upper Siang,12,p592,36683.28,2,True
-Arunachal Pradesh,Changlang,12,p108,113633.04000000001,0,True
-Arunachal Pradesh,Lower Subansiri,12,p343,61393.87,3,True
-Arunachal Pradesh,Dibang Valley,12,p154,3075.8,2,True
-Arunachal Pradesh,Lower Dibang Valley,12,p342,34411.22,3,True
-Arunachal Pradesh,Anjaw,12,p021,11404.42,2,True
-Arunachal Pradesh,East Siang,12,p172,76675.31,3,True
-Arunachal Pradesh,Kra Daadi,12,,46073.33,2,False
-Arunachal Pradesh,Kurung Kumey,12,p329,46073.33,2,True
-Arunachal Pradesh,Lohit,12,p340,53308.365000000005,2,True
-Arunachal Pradesh,Longding,12,,52221.44,0,False
-Arunachal Pradesh,Namsai,12,,53308.365000000005,2,False
-Arunachal Pradesh,Siang,12,,52221.44,3,False
-Arunachal Pradesh,Tirap,12,p574,52221.44,2,True
-Arunachal Pradesh,West Siang,12,p618,113034.95,3,True
-Assam,Kokrajhar,18,p309,1518823.41,0,True
-Assam,Goalpara,18,p200,1418352.0499999998,0,True
-Assam,Barpeta,18,p058,1361725.56,2,True
-Assam,Morigaon,18,p367,529520.57,0,True
-Assam,Lakhimpur,18,p332,1465507.23,0,True
-Assam,Dhemaji,18,p150,1066660.64,2,True
-Assam,Tinsukia,18,p573,1730979.71,2,True
-Assam,Dibrugarh,18,p155,1028592.12,2,True
-Assam,Golaghat,18,p202,1179922.47,2,True
-Assam,Dima Hasao,18,p414,316604.73,0,True
-Assam,Cachar,18,p097,1139530.3,0,True
-Assam,Karimganj,18,p284,1305694.45,0,True
-Assam,Hailakandi,18,p214,1371841.63,0,True
-Assam,Bongaigaon,18,p090,1083965.45,2,True
-Assam,Chirang,18,p115,545819.64,2,True
-Assam,Kamrup,18,p269,1667309.49,2,True
-Assam,Kamrup Metropolitan,18,p270,1197259.29,3,True
-Assam,Nalbari,18,p395,599587.7699999999,2,True
-Assam,Baksa,18,p036,948936.21,2,True
-Assam,Darrang,18,p134,1275555.2000000002,1,True
-Assam,Udalguri,18,p583,1137798.0499999998,0,True
-Assam,Biswanath,18,,632784.69,0,False
-Assam,Charaideo,18,,417161.27,2,False
-Assam,Dhubri,18,p152,2193174.13,1,True
-Assam,Hojai,18,,421910.91,2,False
-Assam,Jorhat,18,p262,623067.9299999999,2,True
-Assam,Karbi Anglong,18,p282,875119.23,0,True
-Assam,Majuli,18,,13319.64,2,False
-Assam,Nagaon,18,p390,1820714.4200000002,2,True
-Assam,Sivasagar,18,p522,511361.70999999996,2,True
-Assam,Sonitpur,18,p541,789749.33,0,True
-Assam,South Salmara Mancachar,18,,123129.72,1,False
-Assam,West Karbi Anglong,18,,367204.77,0,False
-Bihar,Pashchim Champaran,10,p432,3292481.33,1,True
-Bihar,Purba Champaran,10,p452,5432887.9799999995,1,True
-Bihar,Sheohar,10,p515,623447.32,1,True
-Bihar,Sitamarhi,10,p532,3972639.9,1,True
-Bihar,Madhubani,10,p348,5015880.78,1,True
-Bihar,Supaul,10,p553,2657571.96,1,True
-Bihar,Araria,10,p024,3525263.5700000003,1,True
-Bihar,Kishanganj,10,p303,2103446.49,1,True
-Bihar,Purnia,10,p456,3264189.97,1,True
-Bihar,Katihar,10,p290,3388006.5700000003,1,True
-Bihar,Madhepura,10,p347,2889415.12,1,True
-Bihar,Saharsa,10,p490,2182618.46,1,True
-Bihar,Darbhanga,10,p132,3883904.07,1,True
-Bihar,Muzaffarpur,10,p386,5984963.859999999,1,True
-Bihar,Gopalganj,10,p205,2386818.1199999996,1,True
-Bihar,Siwan,10,p535,3162922.83,2,True
-Bihar,Saran,10,p503,4276187.06,1,True
-Bihar,Vaishali,10,p598,13937326.200000001,1,True
-Bihar,Samastipur,10,p495,4068788.21,1,True
-Bihar,Begusarai,10,p064,2645593.48,1,True
-Bihar,Khagaria,10,p295,2191903.28,1,True
-Bihar,Bhagalpur,10,p069,1942743.1400000001,1,True
-Bihar,Banka,10,p047,2061355.14,1,True
-Bihar,Munger,10,p383,1285265.33,2,True
-Bihar,Lakhisarai,10,p333,980108.77,1,True
-Bihar,Sheikhpura,10,p514,468990.87,1,True
-Bihar,Nalanda,10,p394,1549567.0499999998,1,True
-Bihar,Patna,10,p438,5409383.25,2,True
-Bihar,Bhojpur,10,p077,3640412.08,1,True
-Bihar,Buxar,10,p096,1888373.72,1,True
-Bihar,Kaimur (Bhabua),10,p266,1257646.58,1,True
-Bihar,Rohtas,10,p484,3469449.04,2,True
-Bihar,Aurangabad,10,p028,2578022.44,1,True
-Bihar,Gaya,10,p196,5076303.03,1,True
-Bihar,Nawada,10,p405,1784841.1800000002,1,True
-Bihar,Jamui,10,p251,1632778.25,1,True
-Bihar,Jehanabad,10,p631,702965.03,1,True
-Bihar,Arwal,10,p630,962584.4,1,True
-Chandigarh,Chandigarh,4,p106,816357.77,3,True
-Chhattisgarh,Koriya,22,p318,355631.56,2,True
-Chhattisgarh,Jashpur,22,p253,926602.01,2,True
-Chhattisgarh,Raigarh,22,p460,1547175.96,2,True
-Chhattisgarh,Korba,22,p317,1937055.17,0,True
-Chhattisgarh,Janjgir - Champa,22,p252,1231948.74,2,True
-Chhattisgarh,Kabeerdham,22,p624,1368396.35,2,True
-Chhattisgarh,Rajnandgaon,22,p467,1090964.68,2,True
-Chhattisgarh,Mahasamund,22,p351,1051680.31,2,True
-Chhattisgarh,Dhamtari,22,p144,1152289.1900000002,2,True
-Chhattisgarh,Uttar Bastar Kanker,22,p274,757923.93,2,True
-Chhattisgarh,Narayanpur,22,p400,434900.7,1,True
-Chhattisgarh,Bijapur,22,p081,304157.07,1,True
-Chhattisgarh,Balod,22,,786538.75,2,False
-Chhattisgarh,Baloda Bazar,22,,606004.8200000001,2,False
-Chhattisgarh,Balrampur,22,,833965.68,1,False
-Chhattisgarh,Bastar,22,p060,1165941.85,1,True
-Chhattisgarh,Bemetara,22,,723318.01,2,False
-Chhattisgarh,Bilaspur,22,p085,1208932.47,2,True
-Chhattisgarh,Dantewada,22,p127,321056.46,1,True
-Chhattisgarh,Durg,22,p163,1203202.2,3,True
-Chhattisgarh,Gariyaband,22,,1481581.06,2,False
-Chhattisgarh,Kodagaon,22,,418482.4,1,False
-Chhattisgarh,Mungeli,22,,888563.9199999999,2,False
-Chhattisgarh,Raipur,22,p462,2575595.51,2,True
-Chhattisgarh,Sukma,22,,455097.84,1,False
-Chhattisgarh,Surajpur,22,,897526.78,2,False
-Chhattisgarh,Surguja,22,p556,278286.48,2,True
-Dadra and Nagar Haveli & Daman and Diu,Diu,25,p158,51049.57,3,True
-Dadra and Nagar Haveli & Daman and Diu,Daman,25,p130,211402.41,3,True
-Dadra and Nagar Haveli & Daman and Diu,Dadra & Nagar Haveli,25,p126,331923.84,2,True
-Goa,North Goa,30,p416,1005992.87,3,True
-Goa,South Goa,30,p546,446686.33,3,True
-Gujarat,Kachchh,24,p265,2195903.7600000002,2,True
-Gujarat,Banas Kantha,24,p042,2909731.46,1,True
-Gujarat,Patan,24,p435,1235392.74,2,True
-Gujarat,Mahesana,24,p355,1618800.25,2,True
-Gujarat,Gandhinagar,24,p189,1330555.65,3,True
-Gujarat,Porbandar,24,p444,563751.5,3,True
-Gujarat,Amreli,24,p016,1237196.38,2,True
-Gujarat,Anand,24,p018,2079433.83,2,True
-Gujarat,Dohad,24,p160,1992249.0699999998,1,True
-Gujarat,Narmada,24,p401,834374.64,1,True
-Gujarat,Bharuch,24,p072,2559422.47,2,True
-Gujarat,The Dangs,24,p563,245501.69,1,True
-Gujarat,Navsari,24,p404,1055168.94,2,True
-Gujarat,Valsad,24,p599,1773860.1099999999,2,True
-Gujarat,Surat,24,p554,5596413.38,3,True
-Gujarat,Tapi,24,p636,713803.3400000001,2,True
-Gujarat,Ahmadabad,24,p002,7066546.34,3,True
-Gujarat,Aravali,24,,1473090.14,1,False
-Gujarat,Bhavnagar,24,p073,1403417.1099999999,2,True
-Gujarat,Botad,24,,293400.39,2,False
-Gujarat,Chhota Udaipur,24,,1066239.28,1,False
-Gujarat,Devbhumi Dwarka,24,,1170686.29,2,False
-Gujarat,Gir Somnath,24,,1408588.7200000002,2,False
-Gujarat,Jamnagar,24,p249,1377381.75,3,True
-Gujarat,Junagadh,24,p263,933785.42,2,True
-Gujarat,Kheda,24,p297,1842973.33,2,True
-Gujarat,Mahisagar,24,,615861.44,1,False
-Gujarat,Morbi,24,,1176511.52,2,False
-Gujarat,Panch Mahals,24,p426,2135169.99,1,True
-Gujarat,Rajkot,24,p466,2324638.29,3,True
-Gujarat,Sabar Kantha,24,p487,1482506.21,2,True
-Gujarat,Surendranagar,24,p555,2233571.13,2,True
-Gujarat,Vadodara,24,p597,3264560.3,3,True
-Haryana,Panchkula,6,p427,557525.16,3,True
-Haryana,Ambala,6,p013,854883.45,3,True
-Haryana,Yamunanagar,6,p625,1378907.64,3,True
-Haryana,Kurukshetra,6,p328,1548220.14,3,True
-Haryana,Kaithal,6,p267,500198.84,2,True
-Haryana,Karnal,6,p286,1516222.6,3,True
-Haryana,Panipat,6,p428,2014100.69,3,True
-Haryana,Sonipat,6,p540,831682.1799999999,3,True
-Haryana,Jind,6,p626,1051548.95,2,True
-Haryana,Fatehabad,6,p181,1162999.46,2,True
-Haryana,Sirsa,6,p531,1145513.02,2,True
-Haryana,Hisar,6,p227,1904941.94,2,True
-Haryana,Rohtak,6,p483,1039448.74,3,True
-Haryana,Jhajjar,6,p256,1622989.8599999999,3,True
-Haryana,Mahendragarh,6,p354,541974.22,2,True
-Haryana,Rewari,6,p481,809054.99,3,True
-Haryana,Gurgaon,6,p212,1920835.2799999998,3,True
-Haryana,Mewat,6,p373,1387107.55,1,True
-Haryana,Faridabad,6,p178,1572302.4500000002,3,True
-Haryana,Palwal,6,p425,620018.16,2,True
-Haryana,Bhiwani,6,p076,797240.5549999999,2,True
-Haryana,Charkhi Dadri,6,,797240.5549999999,2,False
-Himachal Pradesh,Chamba,2,p099,384596.25,2,True
-Himachal Pradesh,Kangra,2,p273,1593680.17,3,True
-Himachal Pradesh,Lahul & Spiti,2,p331,115676.4,3,True
-Himachal Pradesh,Kullu,2,p325,553106.03,3,True
-Himachal Pradesh,Mandi,2,p362,674717.65,3,True
-Himachal Pradesh,Hamirpur,2,p215,636940.58,3,True
-Himachal Pradesh,Una,2,p590,474435.69,3,True
-Himachal Pradesh,Bilaspur,2,p086,300313.39999999997,3,True
-Himachal Pradesh,Solan,2,p536,592034.2,3,True
-Himachal Pradesh,Sirmaur,2,p529,727382.1799999999,2,True
-Himachal Pradesh,Shimla,2,p517,931646.72,3,True
-Himachal Pradesh,Kinnaur,2,p301,107209.35,3,True
-Jammu & Kashmir,Kupwara,1,p326,590297.97,2,True
-Jammu & Kashmir,Badgam,1,p031,231390.77,2,True
-Jammu & Kashmir,Punch,1,p450,507470.69,0,True
-Jammu & Kashmir,Rajouri,1,p464,1448194.0,0,True
-Jammu & Kashmir,Kathua,1,p289,520712.06000000006,3,True
-Jammu & Kashmir,Baramula,1,p052,874956.73,2,True
-Jammu & Kashmir,Bandipore,1,p044,342518.16,2,True
-Jammu & Kashmir,Srinagar,1,p550,637988.63,3,True
-Jammu & Kashmir,Ganderbal,1,p188,290582.53,2,True
-Jammu & Kashmir,Pulwama,1,p449,911468.8799999999,3,True
-Jammu & Kashmir,Shupiyan,1,p521,34273.72,3,True
-Jammu & Kashmir,Anantnag,1,p020,1263343.52,3,True
-Jammu & Kashmir,Kulgam,1,p324,190876.8,2,True
-Jammu & Kashmir,Doda,1,p159,95744.91,3,True
-Jammu & Kashmir,Ramban,1,p471,479451.75,0,True
-Jammu & Kashmir,Kishtwar,1,p304,164616.87,2,True
-Jammu & Kashmir,Udhampur,1,p584,548248.34,0,True
-Jammu & Kashmir,Reasi,1,p479,500537.14,0,True
-Jammu & Kashmir,Jammu,1,p248,2073676.68,3,True
-Jammu & Kashmir,Samba,1,p496,229099.69,3,True
-Jharkhand,Garhwa,20,p193,986158.95,1,True
-Jharkhand,Chatra,20,p109,432180.03,1,True
-Jharkhand,Kodarma,20,p307,859445.7999999999,1,True
-Jharkhand,Giridih,20,p199,3233478.43,1,True
-Jharkhand,Deoghar,20,p140,1595398.52,1,True
-Jharkhand,Godda,20,p201,2133308.91,1,True
-Jharkhand,Sahibganj,20,p491,858836.01,1,True
-Jharkhand,Pakur,20,p421,641370.16,1,True
-Jharkhand,Dhanbad,20,p145,2310902.63,2,True
-Jharkhand,Bokaro,20,p089,2085981.29,2,True
-Jharkhand,Lohardaga,20,p339,270068.28,0,True
-Jharkhand,Purbi Singhbhum,20,p454,1768557.58,2,True
-Jharkhand,Palamu,20,p423,2310214.9899999998,1,True
-Jharkhand,Latehar,20,p335,1153410.5,1,True
-Jharkhand,Hazaribagh,20,p225,2012941.31,1,True
-Jharkhand,Ramgarh,20,p472,1006151.5,0,True
-Jharkhand,Dumka,20,p161,1934965.31,1,True
-Jharkhand,Jamtara,20,p250,1171992.26,1,True
-Jharkhand,Ranchi,20,p474,2015267.45,2,True
-Jharkhand,Khunti,20,p300,109556.62,0,True
-Jharkhand,Gumla,20,p208,955543.87,0,True
-Jharkhand,Simdega,20,p526,592167.66,0,True
-Jharkhand,Pashchimi Singhbhum,20,p434,986764.1699999999,1,True
-Jharkhand,Saraikela-Kharsawan,20,p502,965415.3,0,True
-Karnataka,Belgaum,29,p065,4066644.9699999997,2,True
-Karnataka,Bagalkot,29,p032,2424486.05,2,True
-Karnataka,Bijapur,29,p082,2882278.4499999997,2,True
-Karnataka,Bidar,29,p080,1144298.35,2,True
-Karnataka,Raichur,29,p459,2575683.84,1,True
-Karnataka,Koppal,29,p315,1776178.51,1,True
-Karnataka,Gadag,29,p186,1080891.7000000002,2,True
-Karnataka,Dharwad,29,p148,1619259.49,3,True
-Karnataka,Uttara Kannada,29,p595,1411703.35,3,True
-Karnataka,Haveri,29,p224,2168838.2,2,True
-Karnataka,Bellary,29,p066,2677740.8000000003,2,True
-Karnataka,Chitradurga,29,p116,2192482.36,3,True
-Karnataka,Davanagere,29,p137,2606606.77,3,True
-Karnataka,Shimoga,29,p518,1944635.3399999999,3,True
-Karnataka,Udupi,29,p586,1004921.52,3,True
-Karnataka,Chikmagalur,29,p114,733658.96,3,True
-Karnataka,Tumkur,29,p581,1884663.34,3,True
-Karnataka,Bangalore,29,p046,8568996.52,3,True
-Karnataka,Mandya,29,p365,1127295.58,3,True
-Karnataka,Hassan,29,p222,1407471.84,3,True
-Karnataka,Dakshina Kannada,29,p129,1406780.18,3,True
-Karnataka,Kodagu,29,p306,553584.6599999999,3,True
-Karnataka,Mysore,29,p387,3417102.85,3,True
-Karnataka,Chamarajanagar,29,p103,704321.0399999999,2,True
-Karnataka,Gulbarga,29,p207,2695765.76,2,True
-Karnataka,Yadgir,29,p621,830923.92,1,True
-Karnataka,Kolar,29,p310,1268462.53,3,True
-Karnataka,Chikkaballapura,29,p113,1107302.36,2,True
-Karnataka,Bangalore Rural,29,p045,534577.8200000001,3,True
-Karnataka,Ramanagara,29,p469,921317.7200000001,3,True
-Kerala,Kasaragod,32,p288,720406.9199999999,3,True
-Kerala,Kannur,32,p277,2563056.8099999996,3,True
-Kerala,Wayanad,32,p610,736604.84,3,True
-Kerala,Kozhikode,32,p321,2978039.7800000003,3,True
-Kerala,Malappuram,32,p358,4931156.81,3,True
-Kerala,Palakkad,32,p422,2565595.77,3,True
-Kerala,Thrissur,32,p571,2839478.23,3,True
-Kerala,Ernakulam,32,p173,4549072.37,3,True
-Kerala,Idukki,32,p232,987707.28,3,True
-Kerala,Kottayam,32,p320,1912035.25,3,True
-Kerala,Alappuzha,32,p007,2600414.5300000003,3,True
-Kerala,Pathanamthitta,32,p436,1318079.49,3,True
-Kerala,Kollam,32,p314,1343122.76,3,True
-Kerala,Thiruvananthapuram,32,p567,2872576.96,3,True
-Ladakh,Leh(Ladakh),37,,66283.70000000001,3,False
-Ladakh,Kargil,37,p283,180169.77,2,True
-Lakshadweep,Lakshadweep,31,p640,47249.450000000004,3,True
-Madhya Pradesh,Sheopur,23,p516,239119.16,1,True
-Madhya Pradesh,Morena,23,p379,1752398.46,2,True
-Madhya Pradesh,Bhind,23,p075,1318951.06,2,True
-Madhya Pradesh,Gwalior,23,p213,1702999.68,2,True
-Madhya Pradesh,Datia,23,p136,1110954.0899999999,2,True
-Madhya Pradesh,Shivpuri,23,p519,2296406.72,1,True
-Madhya Pradesh,Tikamgarh,23,p572,1401528.15,0,True
-Madhya Pradesh,Chhatarpur,23,p111,1531099.9899999998,1,True
-Madhya Pradesh,Panna,23,p429,995850.1699999999,1,True
-Madhya Pradesh,Sagar,23,p488,3461613.26,2,True
-Madhya Pradesh,Damoh,23,p131,901691.1699999999,1,True
-Madhya Pradesh,Satna,23,p505,1714789.0699999998,1,True
-Madhya Pradesh,Rewa,23,p480,2405124.52,0,True
-Madhya Pradesh,Umaria,23,p589,685420.86,0,True
-Madhya Pradesh,Neemuch,23,p407,1256060.03,2,True
-Madhya Pradesh,Mandsaur,23,p364,1187526.8,2,True
-Madhya Pradesh,Ratlam,23,p476,2332842.81,2,True
-Madhya Pradesh,Ujjain,23,p587,1137190.8900000001,2,True
-Madhya Pradesh,Dewas,23,p142,1348035.92,2,True
-Madhya Pradesh,Dhar,23,p146,2405027.0300000003,2,True
-Madhya Pradesh,Indore,23,p235,2270129.3600000003,3,True
-Madhya Pradesh,Khargone (West Nimar),23,p617,2238327.2600000002,2,True
-Madhya Pradesh,Barwani,23,p059,750344.6,1,True
-Madhya Pradesh,Rajgarh,23,p465,1992003.1,1,True
-Madhya Pradesh,Vidisha,23,p602,1433327.0899999999,2,True
-Madhya Pradesh,Bhopal,23,p078,2907582.07,3,True
-Madhya Pradesh,Sehore,23,p506,1880684.94,2,True
-Madhya Pradesh,Raisen,23,p463,1136623.99,2,True
-Madhya Pradesh,Betul,23,p067,1816774.92,2,True
-Madhya Pradesh,Harda,23,p219,401866.42,2,True
-Madhya Pradesh,Hoshangabad,23,p228,1132488.72,2,True
-Madhya Pradesh,Katni,23,p291,878719.14,1,True
-Madhya Pradesh,Jabalpur,23,p236,2085294.06,2,True
-Madhya Pradesh,Narsimhapur,23,p402,1710635.0499999998,2,True
-Madhya Pradesh,Dindori,23,p157,483506.51,0,True
-Madhya Pradesh,Mandla,23,p363,825971.42,0,True
-Madhya Pradesh,Chhindwara,23,p112,2345472.96,2,True
-Madhya Pradesh,Seoni,23,p508,1371134.5,0,True
-Madhya Pradesh,Balaghat,23,p037,1893442.4100000001,0,True
-Madhya Pradesh,Guna,23,p209,1549579.45,1,True
-Madhya Pradesh,Ashoknagar,23,p026,1127151.15,1,True
-Madhya Pradesh,Shahdol,23,p510,853595.91,0,True
-Madhya Pradesh,Anuppur,23,p023,317143.28,0,True
-Madhya Pradesh,Sidhi,23,p524,1623637.89,1,True
-Madhya Pradesh,Singrauli,23,p528,937724.83,1,True
-Madhya Pradesh,Jhabua,23,p255,1562294.93,1,True
-Madhya Pradesh,Alirajpur,23,p009,701030.26,1,True
-Madhya Pradesh,Khandwa (East Nimar),23,p171,1267247.5299999998,2,True
-Madhya Pradesh,Burhanpur,23,p095,394616.10000000003,2,True
-Madhya Pradesh,Agar Malwa,23,,519475.565,1,False
-Madhya Pradesh,Shajapur,23,p513,519475.565,2,True
-Maharastra,Nandurbar,27,p399,1807745.87,1,True
-Maharastra,Dhule,27,p153,1602516.4200000002,2,True
-Maharastra,Jalgaon,27,p244,4232759.43,2,True
-Maharastra,Buldana,27,p093,3323019.29,2,True
-Maharastra,Akola,27,p006,1522136.45,3,True
-Maharastra,Washim,27,p609,1585870.02,0,True
-Maharastra,Amravati,27,p015,3124597.6799999997,3,True
-Maharastra,Wardha,27,p608,1566412.81,3,True
-Maharastra,Nagpur,27,p392,5207192.17,3,True
-Maharastra,Bhandara,27,p070,1071021.52,2,True
-Maharastra,Gondiya,27,p204,1833981.01,2,True
-Maharastra,Gadchiroli,27,p192,1176052.5,2,True
-Maharastra,Chandrapur,27,p107,1918708.6099999999,2,True
-Maharastra,Yavatmal,27,p622,1682854.22,2,True
-Maharastra,Nanded,27,p398,4487816.390000001,2,True
-Maharastra,Hingoli,27,p226,1295393.76,2,True
-Maharastra,Parbhani,27,p431,1794656.98,2,True
-Maharastra,Jalna,27,p245,997222.05,2,True
-Maharastra,Aurangabad,27,p029,3424541.59,2,True
-Maharastra,Nashik,27,p403,6012032.4,2,True
-Maharastra,Mumbai Suburban,27,p382,10052471.17,3,True
-Maharastra,Mumbai,27,p381,2182386.87,3,True
-Maharastra,Raigarh,27,p461,2182386.87,2,True
-Maharastra,Pune,27,p451,13547112.469999999,3,True
-Maharastra,Ahmadnagar,27,p003,6301153.62,3,True
-Maharastra,Bid,27,p079,2727515.51,2,True
-Maharastra,Latur,27,p336,2296703.2600000002,2,True
-Maharastra,Osmanabad,27,p420,1320239.25,2,True
-Maharastra,Solapur,27,p537,3715227.4000000004,2,True
-Maharastra,Satara,27,p504,1896370.1700000002,3,True
-Maharastra,Ratnagiri,27,p477,1206628.3599999999,2,True
-Maharastra,Sindhudurg,27,p527,439912.03,3,True
-Maharastra,Kolhapur,27,p312,2747077.36,3,True
-Maharastra,Sangli,27,p498,3174716.48,3,True
-Maharastra,Palghar,27,,5107673.585,3,False
-Maharastra,Thane,27,p561,5107673.585,3,True
-Manipur,Senapati,14,p507,391569.79,0,True
-Manipur,Tamenglong,14,p557,110511.49,0,True
-Manipur,Churachandpur,14,p120,289688.33,0,True
-Manipur,Bishnupur,14,p088,276724.82999999996,3,True
-Manipur,Thoubal,14,p570,396113.36,0,True
-Manipur,Imphal West,14,p234,580740.77,3,True
-Manipur,Imphal East,14,p233,544885.56,3,True
-Manipur,Ukhrul,14,p588,176630.75999999998,0,True
-Manipur,Chandel,14,p105,106811.41,0,True
-Meghalaya,South Garo Hills,17,p545,223277.69,0,True
-Meghalaya,Ribhoi,17,p482,247555.44999999998,0,True
-Meghalaya,East Khasi Hills,17,p170,974326.32,0,True
-Meghalaya,East Garo Hills,17,p167,135623.28,0,True
-Meghalaya,East Jantia Hills,17,,215596.39,0,False
-Meghalaya,North Garo Hills,17,,135623.28,0,False
-Meghalaya,South West Garo Hills,17,,383031.815,0,False
-Meghalaya,South West Khasi Hills,17,,284047.025,0,False
-Meghalaya,West Garo Hills,17,p613,383031.815,0,True
-Meghalaya,West Jaintia Hills,17,,215596.39,0,False
-Meghalaya,West Khasi Hills,17,p616,284047.025,0,True
-Mizoram,Mamit,15,p361,69860.99,3,True
-Mizoram,Kolasib,15,p311,80496.75,3,True
-Mizoram,Aizawl,15,p004,274256.03,3,True
-Mizoram,Champhai,15,p102,112786.31,3,True
-Mizoram,Serchhip,15,p509,35987.18,3,True
-Mizoram,Lunglei,15,p346,150565.21,3,True
-Mizoram,Lawngtlai,15,p337,210672.36000000002,0,True
-Nagaland,Mon,13,p377,199118.39,0,True
-Nagaland,Mokokchung,13,p376,152627.77,3,True
-Nagaland,Zunheboto,13,p623,119977.47,0,True
-Nagaland,Wokha,13,p620,94294.28,3,True
-Nagaland,Dimapur,13,p164,274536.66,3,True
-Nagaland,Phek,13,p441,110118.2,2,True
-Nagaland,Tuensang,13,p580,175520.74000000002,0,True
-Nagaland,Longleng,13,p341,36897.28,0,True
-Nagaland,Kiphire,13,p302,81458.03,0,True
-Nagaland,Kohima,13,p308,149654.47,3,True
-Nagaland,Peren,13,p440,125962.31,2,True
-NCT of Delhi,Central,7,p098,471572.79,3,True
-NCT of Delhi,East,7,p165,1839135.78,3,True
-NCT of Delhi,New Delhi,7,p409,1520181.245,3,True
-NCT of Delhi,North,7,p411,525790.46,3,True
-NCT of Delhi,North East,7,p415,1777423.8599999999,3,True
-NCT of Delhi,North West,7,p418,3323022.92,3,True
-NCT of Delhi,Shahdara,7,,1520181.245,3,False
-NCT of Delhi,South,7,p542,2142416.62,3,True
-NCT of Delhi,South East,7,,1520181.245,3,False
-NCT of Delhi,South West,7,p548,1262938.6300000001,3,True
-NCT of Delhi,West,7,p611,1168664.22,3,True
-Odisha,Bargarh,21,p051,1656741.7100000002,2,True
-Odisha,Jharsuguda,21,p259,666488.66,2,True
-Odisha,Sambalpur,21,p497,1142553.7,2,True
-Odisha,Debagarh,21,p138,184012.04,0,True
-Odisha,Sundargarh,21,p552,2458937.1,2,True
-Odisha,Kendujhar,21,p294,1888455.01,1,True
-Odisha,Mayurbhanj,21,p370,2284203.36,1,True
-Odisha,Baleshwar,21,p039,1987697.15,2,True
-Odisha,Bhadrak,21,p068,1655172.72,2,True
-Odisha,Kendrapara,21,p293,1082435.25,2,True
-Odisha,Jagatsinghapur,21,p237,1093680.99,3,True
-Odisha,Cuttack,21,p125,1926725.51,2,True
-Odisha,Jajapur,21,p241,1598093.21,2,True
-Odisha,Dhenkanal,21,p151,1242056.08,0,True
-Odisha,Anugul,21,p022,1448097.7999999998,0,True
-Odisha,Nayagarh,21,p406,944714.5800000001,2,True
-Odisha,Khordha,21,p299,1351714.12,3,True
-Odisha,Puri,21,p455,1821758.2,3,True
-Odisha,Ganjam,21,p191,3030365.84,2,True
-Odisha,Gajapati,21,p187,685844.9,1,True
-Odisha,Kandhamal,21,p272,222157.71,0,True
-Odisha,Baudh,21,p063,429966.21,2,True
-Odisha,Subarnapur,21,p538,357341.03,2,True
-Odisha,Balangir,21,p038,1661028.18,2,True
-Odisha,Nuapada,21,p419,379414.17,1,True
-Odisha,Kalahandi,21,p268,1877529.54,2,True
-Odisha,Rayagada,21,p478,1292823.4000000001,1,True
-Odisha,Nabarangapur,21,p388,1727959.2,1,True
-Odisha,Koraput,21,p316,1312803.6600000001,1,True
-Odisha,Malkangiri,21,p360,675110.78,1,True
-Puducherry,Yanam,34,p635,37946.16,3,True
-Puducherry,Puducherry,34,p634,1003491.25,3,True
-Puducherry,Mahe,34,p353,54237.98,3,True
-Puducherry,Karaikal,34,p633,167840.32,3,True
-Punjab,Kapurthala,3,p281,373479.13,3,True
-Punjab,Jalandhar,3,p242,2006854.83,3,True
-Punjab,Hoshiarpur,3,p229,1306794.44,3,True
-Punjab,Shahid Bhagat Singh Nagar,3,p511,394733.29000000004,3,True
-Punjab,Fatehgarh Sahib,3,p182,365535.09,3,True
-Punjab,Ludhiana,3,p345,4161591.76,3,True
-Punjab,Moga,3,p375,928825.15,3,True
-Punjab,Muktsar,3,p380,1019817.8,2,True
-Punjab,Faridkot,3,p179,257445.06,3,True
-Punjab,Bathinda,3,p062,1553438.88,3,True
-Punjab,Mansa,3,p366,766033.19,2,True
-Punjab,Patiala,3,p437,1317586.41,3,True
-Punjab,Amritsar,3,p017,3205200.76,3,True
-Punjab,Tarn Taran,3,p558,1118396.42,2,True
-Punjab,Rupnagar,3,p486,392798.16,3,True
-Punjab,Sahibzada Ajit Singh Nagar,3,p492,1753453.5499999998,3,True
-Punjab,Sangrur,3,p499,1020550.15,3,True
-Punjab,Barnala,3,p057,619146.26,3,True
-Punjab,Fazilka,3,,1124380.94,2,False
-Punjab,Firozpur,3,p185,612737.44,3,True
-Punjab,Gurdaspur,3,p211,2849462.85,3,True
-Punjab,Pathankot,3,,812408.98,3,False
-Rajasthan,Ganganagar,8,p190,1403216.79,2,True
-Rajasthan,Hanumangarh,8,p217,1499256.42,2,True
-Rajasthan,Bikaner,8,p084,2089915.15,2,True
-Rajasthan,Churu,8,p121,2052623.19,2,True
-Rajasthan,Jhunjhunun,8,p260,1666418.28,2,True
-Rajasthan,Alwar,8,p012,4718761.0,2,True
-Rajasthan,Bharatpur,8,p071,3103085.61,1,True
-Rajasthan,Dhaulpur,8,p149,1035876.5599999999,1,True
-Rajasthan,Karauli,8,p628,1358888.8599999999,1,True
-Rajasthan,Sawai Madhopur,8,p629,2204303.11,1,True
-Rajasthan,Dausa,8,p627,1134355.56,1,True
-Rajasthan,Jaipur,8,p239,7190946.359999999,2,True
-Rajasthan,Sikar,8,p525,3058723.38,2,True
-Rajasthan,Nagaur,8,p391,3614720.36,2,True
-Rajasthan,Jodhpur,8,p261,5428727.67,2,True
-Rajasthan,Jaisalmer,8,p240,1285530.02,2,True
-Rajasthan,Barmer,8,p056,2904005.3,2,True
-Rajasthan,Jalor,8,p246,1515270.97,1,True
-Rajasthan,Sirohi,8,p530,743522.98,1,True
-Rajasthan,Pali,8,p424,1474264.16,2,True
-Rajasthan,Ajmer,8,p005,2886562.82,2,True
-Rajasthan,Tonk,8,p579,826573.72,1,True
-Rajasthan,Bundi,8,p094,774941.55,1,True
-Rajasthan,Bhilwara,8,p074,2961304.1500000004,2,True
-Rajasthan,Rajsamand,8,p468,1224398.67,2,True
-Rajasthan,Dungarpur,8,p162,2093833.44,2,True
-Rajasthan,Banswara,8,p049,1291616.82,1,True
-Rajasthan,Chittaurgarh,8,p118,1377552.8900000001,2,True
-Rajasthan,Kota,8,p319,1869250.85,2,True
-Rajasthan,Baran,8,p053,1766377.5699999998,1,True
-Rajasthan,Jhalawar,8,p257,701672.6799999999,1,True
-Rajasthan,Udaipur,8,p582,2898141.5199999996,2,True
-Rajasthan,Pratapgarh,8,p446,1303564.7,1,True
-Sikkim,North  District,11,p412,36439.689999999995,3,True
-Sikkim,West District,11,p612,133019.25,3,True
-Sikkim,South District,11,p543,167075.64,3,True
-Sikkim,East District,11,p166,313341.32999999996,3,True
-Tamil Nadu,Thiruvallur,33,p566,4151815.8800000004,3,True
-Tamil Nadu,Chennai,33,p110,3911089.21,3,True
-Tamil Nadu,Kancheepuram,33,p271,5676379.76,3,True
-Tamil Nadu,Vellore,33,p601,3160287.26,3,True
-Tamil Nadu,Tiruvannamalai,33,p578,3019786.9699999997,3,True
-Tamil Nadu,Viluppuram,33,p603,4106329.0,2,True
-Tamil Nadu,Salem,33,p494,2752076.55,3,True
-Tamil Nadu,Namakkal,33,p397,1561818.47,3,True
-Tamil Nadu,Erode,33,p174,1956555.42,3,True
-Tamil Nadu,The Nilgiris,33,p564,501177.03,3,True
-Tamil Nadu,Dindigul,33,p156,2449059.14,3,True
-Tamil Nadu,Karur,33,p287,1653422.33,3,True
-Tamil Nadu,Tiruchirappalli,33,p575,2207337.59,3,True
-Tamil Nadu,Perambalur,33,p439,640452.9099999999,3,True
-Tamil Nadu,Ariyalur,33,p025,884920.29,2,True
-Tamil Nadu,Cuddalore,33,p123,3517896.9800000004,3,True
-Tamil Nadu,Nagapattinam,33,p632,980470.47,3,True
-Tamil Nadu,Thiruvarur,33,p568,806818.67,3,True
-Tamil Nadu,Thanjavur,33,p562,2642043.2800000003,3,True
-Tamil Nadu,Pudukkottai,33,p448,1181239.92,2,True
-Tamil Nadu,Sivaganga,33,p534,1134192.74,3,True
-Tamil Nadu,Madurai,33,p349,2283490.63,3,True
-Tamil Nadu,Theni,33,p565,1031559.7999999999,3,True
-Tamil Nadu,Virudhunagar,33,p604,2676885.19,3,True
-Tamil Nadu,Ramanathapuram,33,p470,947055.7,3,True
-Tamil Nadu,Thoothukkudi,33,p569,1175312.22,3,True
-Tamil Nadu,Tirunelveli,33,p576,3299045.8200000003,3,True
-Tamil Nadu,Kanniyakumari,33,p276,868208.23,3,True
-Tamil Nadu,Dharmapuri,33,p147,1610070.06,3,True
-Tamil Nadu,Krishnagiri,33,p323,1674604.75,3,True
-Tamil Nadu,Coimbatore,33,p122,3938646.13,3,True
-Tamil Nadu,Tiruppur,33,p577,2755289.32,3,True
-Telangana,Adilabad,36,p000,622634.22,2,True
-Telangana,Bhadradri Kothagudem,36,,1708024.3599999999,2,False
-Telangana,Hyderabad,36,p231,224533.78,3,True
-Telangana,Jagitial,36,,835031.9700000001,2,False
-Telangana,Jangoan,36,,281884.15,2,False
-Telangana,Jayashankar Bhupalapally,36,,310415.52,2,False
-Telangana,Jogulamba Gadwal,36,,952205.34,1,False
-Telangana,Kamareddy,36,,1738926.05,2,False
-Telangana,Karimnagar,36,p285,1430828.24,3,True
-Telangana,Khammam,36,p296,921570.42,3,True
-Telangana,Komaram Bheem Asifabad,36,,117236.8,1,False
-Telangana,Mahabubabad,36,,741836.59,2,False
-Telangana,Mahabubnagar,36,p352,544903.42,2,True
-Telangana,Mancherial,36,,980553.24,2,False
-Telangana,Medak,36,p371,655988.85,2,True
-Telangana,Medchal-Malkajgiri,36,,343726.33,3,False
-Telangana,Nagarkurnool,36,,1014259.4700000001,2,False
-Telangana,Nalgonda,36,p396,1612932.72,2,True
-Telangana,Nirmal,36,,1582220.75,2,False
-Telangana,Nizamabad,36,p410,958284.13,2,True
-Telangana,Peddapalli,36,,770818.3999999999,3,False
-Telangana,Rajanna Sircilla,36,,945624.46,2,False
-Telangana,Ranga Reddy,36,p475,9311171.26,3,True
-Telangana,Sangareddy,36,,2018295.69,2,False
-Telangana,Siddipet,36,,1052552.8399999999,2,False
-Telangana,Suryapet,36,,1070692.26,2,False
-Telangana,Vikarabad,36,,1107807.28,2,False
-Telangana,Wanaparthy,36,,290231.51,2,False
-Telangana,Warangal Rural,36,,530049.26,2,False
-Telangana,Warangal Urban,36,,1038563.8500000001,3,False
-Telangana,Yadadri Bhuvanagiri,36,,598256.39,2,False
-Tripura,Dhalai,16,p143,576179.44,0,True
-Tripura,Gomati,16,,441884.38,2,False
-Tripura,Khowai,16,,322292.44,0,False
-Tripura,North Tripura,16,p417,425562.74,0,True
-Tripura,Sepahijala,16,,338127.67000000004,2,False
-Tripura,South Tripura,16,p547,389277.53,2,True
-Tripura,Unakoti,16,,277698.06,0,False
-Tripura,West Tripura,16,p619,814336.4099999999,3,True
-Uttar Pradesh,Saharanpur,9,p489,3022933.9699999997,2,True
-Uttar Pradesh,Bijnor,9,p083,2981053.31,2,True
-Uttar Pradesh,Rampur,9,p473,3377883.56,2,True
-Uttar Pradesh,Jyotiba Phule Nagar,9,p264,1347237.26,2,True
-Uttar Pradesh,Meerut,9,p372,3007588.71,3,True
-Uttar Pradesh,Baghpat,9,p034,949045.36,2,True
-Uttar Pradesh,Gautam Buddha Nagar,9,p195,2692259.73,3,True
-Uttar Pradesh,Bulandshahr,9,p092,2231555.97,2,True
-Uttar Pradesh,Aligarh,9,p008,4405844.65,2,True
-Uttar Pradesh,Mahamaya Nagar,9,p223,1618210.79,2,True
-Uttar Pradesh,Mathura,9,p368,1880415.5,2,True
-Uttar Pradesh,Agra,9,p001,4535122.11,2,True
-Uttar Pradesh,Firozabad,9,p184,2002513.8,2,True
-Uttar Pradesh,Mainpuri,9,p357,1326897.26,2,True
-Uttar Pradesh,Bareilly,9,p055,5359723.32,1,True
-Uttar Pradesh,Pilibhit,9,p442,1892563.5699999998,1,True
-Uttar Pradesh,Shahjahanpur,9,p512,3518714.14,1,True
-Uttar Pradesh,Kheri,9,p298,3677643.6,1,True
-Uttar Pradesh,Sitapur,9,p533,5292389.57,1,True
-Uttar Pradesh,Hardoi,9,p220,3769657.13,1,True
-Uttar Pradesh,Unnao,9,p591,2911609.6799999997,1,True
-Uttar Pradesh,Lucknow,9,p344,5125402.800000001,3,True
-Uttar Pradesh,Farrukhabad,9,p180,1794777.78,1,True
-Uttar Pradesh,Kannauj,9,p275,843717.85,1,True
-Uttar Pradesh,Etawah,9,p176,861940.0700000001,2,True
-Uttar Pradesh,Auraiya,9,p027,1343039.8,2,True
-Uttar Pradesh,Kanpur Dehat,9,p278,2322804.4,1,True
-Uttar Pradesh,Kanpur Nagar,9,p279,4586216.0,3,True
-Uttar Pradesh,Jalaun,9,p243,1493195.7600000002,2,True
-Uttar Pradesh,Jhansi,9,p258,2734764.75,2,True
-Uttar Pradesh,Lalitpur,9,p334,1793064.9500000002,1,True
-Uttar Pradesh,Hamirpur,9,p216,575925.33,2,True
-Uttar Pradesh,Mahoba,9,p356,549473.45,1,True
-Uttar Pradesh,Banda,9,p043,2516562.09,1,True
-Uttar Pradesh,Chitrakoot,9,p117,829479.9199999999,1,True
-Uttar Pradesh,Fatehpur,9,p183,2607909.5,1,True
-Uttar Pradesh,Pratapgarh,9,p447,4264308.94,2,True
-Uttar Pradesh,Kaushambi,9,p292,2169562.78,1,True
-Uttar Pradesh,Allahabad,9,p010,6712691.45,2,True
-Uttar Pradesh,Bara Banki,9,p050,3413606.31,1,True
-Uttar Pradesh,Faizabad,9,p177,2063027.1300000001,2,True
-Uttar Pradesh,Ambedkar Nagar,9,p014,1658105.41,2,True
-Uttar Pradesh,Bahraich,9,p035,3968676.37,1,True
-Uttar Pradesh,Shrawasti,9,p520,453802.81,1,True
-Uttar Pradesh,Balrampur,9,p041,2038237.3,1,True
-Uttar Pradesh,Gonda,9,p203,4631288.37,1,True
-Uttar Pradesh,Siddharthnagar,9,p523,1696079.05,1,True
-Uttar Pradesh,Basti,9,p061,3478008.13,2,True
-Uttar Pradesh,Sant Kabir Nagar,9,p500,1942080.01,1,True
-Uttar Pradesh,Mahrajganj,9,p350,2839442.63,1,True
-Uttar Pradesh,Gorakhpur,9,p206,3019622.94,2,True
-Uttar Pradesh,Kushinagar,9,p330,4042542.2699999996,1,True
-Uttar Pradesh,Deoria,9,p141,2761860.79,2,True
-Uttar Pradesh,Azamgarh,9,p030,4450674.4,2,True
-Uttar Pradesh,Mau,9,p369,1620577.46,2,True
-Uttar Pradesh,Ballia,9,p040,2966412.7399999998,2,True
-Uttar Pradesh,Jaunpur,9,p254,3738313.63,2,True
-Uttar Pradesh,Ghazipur,9,p198,3687614.7,2,True
-Uttar Pradesh,Chandauli,9,p104,2536981.24,2,True
-Uttar Pradesh,Varanasi,9,p600,3714806.6,3,True
-Uttar Pradesh,Sant Ravidas Nagar (Bhadohi),9,p501,1746590.1300000001,2,True
-Uttar Pradesh,Mirzapur,9,p374,2039959.54,2,True
-Uttar Pradesh,Sonbhadra,9,p539,2059870.9300000002,1,True
-Uttar Pradesh,Etah,9,p175,1476367.6400000001,1,True
-Uttar Pradesh,Kanshiram Nagar,9,p280,660728.25,1,True
-Uttar Pradesh,Amethi,9,,1498889.615,1,False
-Uttar Pradesh,Budaun,9,p091,4234136.21,1,True
-Uttar Pradesh,Ghaziabad,9,p197,2764111.3899999997,3,True
-Uttar Pradesh,Hapur,9,,2764111.3899999997,3,False
-Uttar Pradesh,Moradabad,9,p378,2645400.42,2,True
-Uttar Pradesh,Muzaffarnagar,9,p385,2627441.285,2,True
-Uttar Pradesh,Rae Bareli,9,p458,3310209.23,1,True
-Uttar Pradesh,Sambhal,9,,2645400.42,1,False
-Uttar Pradesh,Shamli,9,,2627441.285,2,False
-Uttar Pradesh,Sultanpur,9,p551,1498889.615,2,True
-Uttarakhand,Uttarkashi,5,p596,351595.04,2,True
-Uttarakhand,Chamoli,5,p100,343763.48,2,True
-Uttarakhand,Rudraprayag,5,p485,148793.54,2,True
-Uttarakhand,Tehri Garhwal,5,p560,252775.67,2,True
-Uttarakhand,Dehradun,5,p139,1770810.73,3,True
-Uttarakhand,Garhwal,5,p194,510575.09,2,True
-Uttarakhand,Pithoragarh,5,p443,597877.1,3,True
-Uttarakhand,Bageshwar,5,p033,307991.045,2,True
-Uttarakhand,Almora,5,p011,307991.045,2,True
-Uttarakhand,Champawat,5,p101,243140.34,2,True
-Uttarakhand,Nainital,5,p393,918475.81,3,True
-Uttarakhand,Udham Singh Nagar,5,p585,2348982.93,2,True
-Uttarakhand,Hardwar,5,p221,2334037.21,2,True
-West Bengal,Darjiling,19,p133,1902568.75,3,True
-West Bengal,Jalpaiguri,19,p247,1835875.4900000002,2,True
-West Bengal,Koch Bihar,19,p305,2608631.8200000003,2,True
-West Bengal,Uttar Dinajpur,19,p594,2103703.5300000003,1,True
-West Bengal,Dakshin Dinajpur,19,p128,1761065.3699999999,2,True
-West Bengal,Maldah,19,p359,4535769.84,2,True
-West Bengal,Murshidabad,19,p384,6593815.369999999,2,True
-West Bengal,Birbhum,19,p087,4785682.78,2,True
-West Bengal,Nadia,19,p389,5515748.55,2,True
-West Bengal,North Twenty Four Pargana,19,p413,9184236.42,3,True
-West Bengal,Hugli,19,p230,6472073.399999999,3,True
-West Bengal,Bankura,19,p048,4325936.13,1,True
-West Bengal,Puruliya,19,p457,4407707.04,1,True
-West Bengal,Haora,19,p218,3785668.46,3,True
-West Bengal,Kolkata,19,p313,3268130.77,3,True
-West Bengal,South Twenty Four Pargana,19,p544,8127468.49,2,True
-West Bengal,Paschim Medinipur,19,p433,5446535.08,2,True
-West Bengal,Purba Medinipur,19,p453,4530625.42,2,True
-West Bengal,Paschim Barddhaman,19,,1827079.14,2,False
-West Bengal,Purba Barddhaman,19,,4157017.71,2,False
+Andaman & Nicobar Islands,Nicobars,35,d603,39139.55,3,True
+Andaman & Nicobar Islands,North & Middle Andaman,35,d632,152699.48,3,True
+Andaman & Nicobar Islands,South Andaman,35,d602,213270.25,3,True
+Andhra Pradesh,Srikakulam,28,d519,2399141.28,2,True
+Andhra Pradesh,Vizianagaram,28,d521,1901521.3800000001,2,True
+Andhra Pradesh,Visakhapatnam,28,d520,3757923.12,2,True
+Andhra Pradesh,East Godavari,28,d505,6572628.399999999,3,True
+Andhra Pradesh,West Godavari,28,d523,3064382.3200000003,3,True
+Andhra Pradesh,Krishna,28,d510,4213948.32,3,True
+Andhra Pradesh,Guntur,28,d506,4227318.07,3,True
+Andhra Pradesh,Prakasam,28,d517,2626229.1,2,True
+Andhra Pradesh,Sri Potti Sriramulu Nello,28,d515,2260186.53,3,True
+Andhra Pradesh,Y.S.R.,28,d504,2710617.92,2,True
+Andhra Pradesh,Kurnool,28,d511,4426311.470000001,2,True
+Andhra Pradesh,Anantapur,28,d502,4283980.67,2,True
+Andhra Pradesh,Chittoor,28,d503,3543256.72,2,True
+Arunachal Pradesh,Tawang,12,d238,57245.259999999995,2,True
+Arunachal Pradesh,West Kameng,12,d242,99807.59,3,True
+Arunachal Pradesh,East Kameng,12,d231,51077.56,2,True
+Arunachal Pradesh,Papum Pare,12,d237,130748.18,3,True
+Arunachal Pradesh,Upper Subansiri,12,d241,49111.92,2,True
+Arunachal Pradesh,Upper Siang,12,d240,36683.28,2,True
+Arunachal Pradesh,Changlang,12,d229,113633.04000000001,0,True
+Arunachal Pradesh,Lower Subansiri,12,d236,61393.87,3,True
+Arunachal Pradesh,Dibang Valley,12,d230,3075.8,2,True
+Arunachal Pradesh,Lower Dibang Valley,12,d235,34411.22,3,True
+Arunachal Pradesh,Anjaw,12,d628,11404.42,2,True
+Arunachal Pradesh,East Siang,12,d232,76675.31,3,True
+Arunachal Pradesh,Kra Daadi,12,d677,46073.33,2,True
+Arunachal Pradesh,Kurung Kumey,12,d233,46073.33,2,True
+Arunachal Pradesh,Lohit,12,d234,53308.365000000005,2,True
+Arunachal Pradesh,Longding,12,d666,52221.44,0,True
+Arunachal Pradesh,Namsai,12,d678,53308.365000000005,2,True
+Arunachal Pradesh,Siang,12,d679,52221.44,3,True
+Arunachal Pradesh,Tirap,12,d239,52221.44,2,True
+Arunachal Pradesh,West Siang,12,d243,113034.95,3,True
+Assam,Kokrajhar,18,d294,1518823.41,0,True
+Assam,Goalpara,18,d287,1418352.0499999998,0,True
+Assam,Barpeta,18,d280,1361725.56,2,True
+Assam,Morigaon,18,d296,529520.57,0,True
+Assam,Lakhimpur,18,d295,1465507.23,0,True
+Assam,Dhemaji,18,d284,1066660.64,2,True
+Assam,Tinsukia,18,d302,1730979.71,2,True
+Assam,Dibrugarh,18,d286,1028592.12,2,True
+Assam,Golaghat,18,d288,1179922.47,2,True
+Assam,Dima Hasao,18,d299,316604.73,0,True
+Assam,Cachar,18,d282,1139530.3,0,True
+Assam,Karimganj,18,d293,1305694.45,0,True
+Assam,Hailakandi,18,d289,1371841.63,0,True
+Assam,Bongaigaon,18,d281,1083965.45,2,True
+Assam,Chirang,18,d612,545819.64,2,True
+Assam,Kamrup,18,d291,1667309.49,2,True
+Assam,Kamrup Metropolitan,18,d618,1197259.29,3,True
+Assam,Nalbari,18,d298,599587.7699999999,2,True
+Assam,Baksa,18,d616,948936.21,2,True
+Assam,Darrang,18,d283,1275555.2000000002,1,True
+Assam,Udalguri,18,d617,1137798.0499999998,0,True
+Assam,Biswanath,18,d705,632784.69,0,True
+Assam,Charaideo,18,d708,417161.27,2,True
+Assam,Dhubri,18,d285,2193174.13,1,True
+Assam,Hojai,18,d709,421910.91,2,True
+Assam,Jorhat,18,d290,623067.9299999999,2,True
+Assam,Karbi Anglong,18,d292,875119.23,0,True
+Assam,Majuli,18,d706,13319.64,2,True
+Assam,Nagaon,18,d297,1820714.4200000002,2,True
+Assam,Sivasagar,18,d300,511361.70999999996,2,True
+Assam,Sonitpur,18,d301,789749.33,0,True
+Assam,South Salmara Mancachar,18,d707,123129.72,1,True
+Assam,West Karbi Anglong,18,d710,367204.77,0,True
+Bihar,Pashchim Champaran,10,d211,3292481.33,1,True
+Bihar,Purba Champaran,10,d213,5432887.9799999995,1,True
+Bihar,Sheohar,10,d220,623447.32,1,True
+Bihar,Sitamarhi,10,d221,3972639.9,1,True
+Bihar,Madhubani,10,d206,5015880.78,1,True
+Bihar,Supaul,10,d223,2657571.96,1,True
+Bihar,Araria,10,d188,3525263.5700000003,1,True
+Bihar,Kishanganj,10,d203,2103446.49,1,True
+Bihar,Purnia,10,d214,3264189.97,1,True
+Bihar,Katihar,10,d201,3388006.5700000003,1,True
+Bihar,Madhepura,10,d205,2889415.12,1,True
+Bihar,Saharsa,10,d216,2182618.46,1,True
+Bihar,Darbhanga,10,d195,3883904.07,1,True
+Bihar,Muzaffarpur,10,d208,5984963.859999999,1,True
+Bihar,Gopalganj,10,d197,2386818.1199999996,1,True
+Bihar,Siwan,10,d222,3162922.83,2,True
+Bihar,Saran,10,d218,4276187.06,1,True
+Bihar,Vaishali,10,d224,13937326.200000001,1,True
+Bihar,Samastipur,10,d217,4068788.21,1,True
+Bihar,Begusarai,10,d191,2645593.48,1,True
+Bihar,Khagaria,10,d202,2191903.28,1,True
+Bihar,Bhagalpur,10,d192,1942743.1400000001,1,True
+Bihar,Banka,10,d190,2061355.14,1,True
+Bihar,Munger,10,d207,1285265.33,2,True
+Bihar,Lakhisarai,10,d204,980108.77,1,True
+Bihar,Sheikhpura,10,d219,468990.87,1,True
+Bihar,Nalanda,10,d209,1549567.0499999998,1,True
+Bihar,Patna,10,d212,5409383.25,2,True
+Bihar,Bhojpur,10,d193,3640412.08,1,True
+Bihar,Buxar,10,d194,1888373.72,1,True
+Bihar,Kaimur (Bhabua),10,d200,1257646.58,1,True
+Bihar,Rohtas,10,d215,3469449.04,2,True
+Bihar,Aurangabad,10,d189,2578022.44,1,True
+Bihar,Gaya,10,d196,5076303.03,1,True
+Bihar,Nawada,10,d210,1784841.1800000002,1,True
+Bihar,Jamui,10,d198,1632778.25,1,True
+Bihar,Jehanabad,10,d199,702965.03,1,True
+Bihar,Arwal,10,d611,962584.4,1,True
+Chandigarh,Chandigarh,4,d044,816357.77,3,True
+Chhattisgarh,Koriya,22,d384,355631.56,2,True
+Chhattisgarh,Jashpur,22,d380,926602.01,2,True
+Chhattisgarh,Raigarh,22,d386,1547175.96,2,True
+Chhattisgarh,Korba,22,d383,1937055.17,0,True
+Chhattisgarh,Janjgir - Champa,22,d379,1231948.74,2,True
+Chhattisgarh,Kabeerdham,22,d382,1368396.35,2,True
+Chhattisgarh,Rajnandgaon,22,d388,1090964.68,2,True
+Chhattisgarh,Mahasamund,22,d385,1051680.31,2,True
+Chhattisgarh,Dhamtari,22,d377,1152289.1900000002,2,True
+Chhattisgarh,Uttar Bastar Kanker,22,d381,757923.93,2,True
+Chhattisgarh,Narayanpur,22,d637,434900.7,1,True
+Chhattisgarh,Bijapur,22,d636,304157.07,1,True
+Chhattisgarh,Balod,22,d646,786538.75,2,True
+Chhattisgarh,Baloda Bazar,22,d644,606004.8200000001,2,True
+Chhattisgarh,Balrampur,22,d649,833965.68,1,True
+Chhattisgarh,Bastar,22,d374,1165941.85,1,True
+Chhattisgarh,Bemetara,22,d650,723318.01,2,True
+Chhattisgarh,Bilaspur,22,d375,1208932.47,2,True
+Chhattisgarh,Dantewada,22,d376,321056.46,1,True
+Chhattisgarh,Durg,22,d378,1203202.2,3,True
+Chhattisgarh,Gariyaband,22,d645,1481581.06,2,True
+Chhattisgarh,Kodagaon,22,d643,418482.4,1,True
+Chhattisgarh,Mungeli,22,d647,888563.9199999999,2,True
+Chhattisgarh,Raipur,22,d387,2575595.51,2,True
+Chhattisgarh,Sukma,22,d642,455097.84,1,True
+Chhattisgarh,Surajpur,22,d648,897526.78,2,True
+Chhattisgarh,Surguja,22,d389,278286.48,2,True
+Dadra and Nagar Haveli & Daman and Diu,Diu,25,d464,51049.57,3,True
+Dadra and Nagar Haveli & Daman and Diu,Daman,25,d463,211402.41,3,True
+Dadra and Nagar Haveli & Daman and Diu,Dadra & Nagar Haveli,25,d465,331923.84,2,True
+Goa,North Goa,30,d551,1005992.87,3,True
+Goa,South Goa,30,d552,446686.33,3,True
+Gujarat,Kachchh,24,d449,2195903.7600000002,2,True
+Gujarat,Banas Kantha,24,d441,2909731.46,1,True
+Gujarat,Patan,24,d455,1235392.74,2,True
+Gujarat,Mahesana,24,d451,1618800.25,2,True
+Gujarat,Gandhinagar,24,d446,1330555.65,3,True
+Gujarat,Porbandar,24,d456,563751.5,3,True
+Gujarat,Amreli,24,d439,1237196.38,2,True
+Gujarat,Anand,24,d440,2079433.83,2,True
+Gujarat,Dohad,24,d445,1992249.0699999998,1,True
+Gujarat,Narmada,24,d452,834374.64,1,True
+Gujarat,Bharuch,24,d442,2559422.47,2,True
+Gujarat,The Dangs,24,d444,245501.69,1,True
+Gujarat,Navsari,24,d453,1055168.94,2,True
+Gujarat,Valsad,24,d462,1773860.1099999999,2,True
+Gujarat,Surat,24,d459,5596413.38,3,True
+Gujarat,Tapi,24,d641,713803.3400000001,2,True
+Gujarat,Ahmadabad,24,d438,7066546.34,3,True
+Gujarat,Aravali,24,d672,1473090.14,1,True
+Gujarat,Bhavnagar,24,d443,1403417.1099999999,2,True
+Gujarat,Botad,24,d676,293400.39,2,True
+Gujarat,Chhota Udaipur,24,d668,1066239.28,1,True
+Gujarat,Devbhumi Dwarka,24,d674,1170686.29,2,True
+Gujarat,Gir Somnath,24,d675,1408588.7200000002,2,True
+Gujarat,Jamnagar,24,d447,1377381.75,3,True
+Gujarat,Junagadh,24,d448,933785.42,2,True
+Gujarat,Kheda,24,d450,1842973.33,2,True
+Gujarat,Mahisagar,24,d669,615861.44,1,True
+Gujarat,Morbi,24,d673,1176511.52,2,True
+Gujarat,Panch Mahals,24,d454,2135169.99,1,True
+Gujarat,Rajkot,24,d457,2324638.29,3,True
+Gujarat,Sabar Kantha,24,d458,1482506.21,2,True
+Gujarat,Surendranagar,24,d460,2233571.13,2,True
+Gujarat,Vadodara,24,d461,3264560.3,3,True
+Haryana,Panchkula,6,d070,557525.16,3,True
+Haryana,Ambala,6,d058,854883.45,3,True
+Haryana,Yamunanagar,6,d076,1378907.64,3,True
+Haryana,Kurukshetra,6,d068,1548220.14,3,True
+Haryana,Kaithal,6,d066,500198.84,2,True
+Haryana,Karnal,6,d067,1516222.6,3,True
+Haryana,Panipat,6,d071,2014100.69,3,True
+Haryana,Sonipat,6,d075,831682.1799999999,3,True
+Haryana,Jind,6,d065,1051548.95,2,True
+Haryana,Fatehabad,6,d061,1162999.46,2,True
+Haryana,Sirsa,6,d074,1145513.02,2,True
+Haryana,Hisar,6,d063,1904941.94,2,True
+Haryana,Rohtak,6,d073,1039448.74,3,True
+Haryana,Jhajjar,6,d064,1622989.8599999999,3,True
+Haryana,Mahendragarh,6,d069,541974.22,2,True
+Haryana,Rewari,6,d072,809054.99,3,True
+Haryana,Gurgaon,6,d062,1920835.2799999998,3,True
+Haryana,Mewat,6,d604,1387107.55,1,True
+Haryana,Faridabad,6,d060,1572302.4500000002,3,True
+Haryana,Palwal,6,d619,620018.16,2,True
+Haryana,Bhiwani,6,d059,797240.5549999999,2,True
+Haryana,Charkhi Dadri,6,d701,797240.5549999999,2,True
+Himachal Pradesh,Chamba,2,d016,384596.25,2,True
+Himachal Pradesh,Kangra,2,d018,1593680.17,3,True
+Himachal Pradesh,Lahul & Spiti,2,d021,115676.4,3,True
+Himachal Pradesh,Kullu,2,d020,553106.03,3,True
+Himachal Pradesh,Mandi,2,d022,674717.65,3,True
+Himachal Pradesh,Hamirpur,2,d017,636940.58,3,True
+Himachal Pradesh,Una,2,d026,474435.69,3,True
+Himachal Pradesh,Bilaspur,2,d015,300313.39999999997,3,True
+Himachal Pradesh,Solan,2,d025,592034.2,3,True
+Himachal Pradesh,Sirmaur,2,d024,727382.1799999999,2,True
+Himachal Pradesh,Shimla,2,d023,931646.72,3,True
+Himachal Pradesh,Kinnaur,2,d019,107209.35,3,True
+Jammu & Kashmir,Kupwara,1,d008,590297.97,2,True
+Jammu & Kashmir,Badgam,1,d002,231390.77,2,True
+Jammu & Kashmir,Punch,1,d010,507470.69,0,True
+Jammu & Kashmir,Rajouri,1,d012,1448194.0,0,True
+Jammu & Kashmir,Kathua,1,d007,520712.06000000006,3,True
+Jammu & Kashmir,Baramula,1,d003,874956.73,2,True
+Jammu & Kashmir,Bandipore,1,d623,342518.16,2,True
+Jammu & Kashmir,Srinagar,1,d013,637988.63,3,True
+Jammu & Kashmir,Ganderbal,1,d626,290582.53,2,True
+Jammu & Kashmir,Pulwama,1,d011,911468.8799999999,3,True
+Jammu & Kashmir,Shupiyan,1,d625,34273.72,3,True
+Jammu & Kashmir,Anantnag,1,d001,1263343.52,3,True
+Jammu & Kashmir,Kulgam,1,d622,190876.8,2,True
+Jammu & Kashmir,Doda,1,d004,95744.91,3,True
+Jammu & Kashmir,Ramban,1,d621,479451.75,0,True
+Jammu & Kashmir,Kishtwar,1,d620,164616.87,2,True
+Jammu & Kashmir,Udhampur,1,d014,548248.34,0,True
+Jammu & Kashmir,Reasi,1,d627,500537.14,0,True
+Jammu & Kashmir,Jammu,1,d005,2073676.68,3,True
+Jammu & Kashmir,Samba,1,d624,229099.69,3,True
+Jharkhand,Garhwa,20,d328,986158.95,1,True
+Jharkhand,Chatra,20,d323,432180.03,1,True
+Jharkhand,Kodarma,20,d334,859445.7999999999,1,True
+Jharkhand,Giridih,20,d329,3233478.43,1,True
+Jharkhand,Deoghar,20,d324,1595398.52,1,True
+Jharkhand,Godda,20,d330,2133308.91,1,True
+Jharkhand,Sahibganj,20,d340,858836.01,1,True
+Jharkhand,Pakur,20,d337,641370.16,1,True
+Jharkhand,Dhanbad,20,d325,2310902.63,2,True
+Jharkhand,Bokaro,20,d322,2085981.29,2,True
+Jharkhand,Lohardaga,20,d336,270068.28,0,True
+Jharkhand,Purbi Singhbhum,20,d327,1768557.58,2,True
+Jharkhand,Palamu,20,d338,2310214.9899999998,1,True
+Jharkhand,Latehar,20,d335,1153410.5,1,True
+Jharkhand,Hazaribagh,20,d332,2012941.31,1,True
+Jharkhand,Ramgarh,20,d607,1006151.5,0,True
+Jharkhand,Dumka,20,d326,1934965.31,1,True
+Jharkhand,Jamtara,20,d333,1171992.26,1,True
+Jharkhand,Ranchi,20,d339,2015267.45,2,True
+Jharkhand,Khunti,20,d606,109556.62,0,True
+Jharkhand,Gumla,20,d331,955543.87,0,True
+Jharkhand,Simdega,20,d342,592167.66,0,True
+Jharkhand,Pashchimi Singhbhum,20,d343,986764.1699999999,1,True
+Jharkhand,Saraikela-Kharsawan,20,d341,965415.3,0,True
+Karnataka,Belgaum,29,d527,4066644.9699999997,2,True
+Karnataka,Bagalkot,29,d524,2424486.05,2,True
+Karnataka,Bijapur,29,d530,2882278.4499999997,2,True
+Karnataka,Bidar,29,d529,1144298.35,2,True
+Karnataka,Raichur,29,d546,2575683.84,1,True
+Karnataka,Koppal,29,d543,1776178.51,1,True
+Karnataka,Gadag,29,d537,1080891.7000000002,2,True
+Karnataka,Dharwad,29,d536,1619259.49,3,True
+Karnataka,Uttara Kannada,29,d550,1411703.35,3,True
+Karnataka,Haveri,29,d540,2168838.2,2,True
+Karnataka,Bellary,29,d528,2677740.8000000003,2,True
+Karnataka,Chitradurga,29,d533,2192482.36,3,True
+Karnataka,Davanagere,29,d535,2606606.77,3,True
+Karnataka,Shimoga,29,d547,1944635.3399999999,3,True
+Karnataka,Udupi,29,d549,1004921.52,3,True
+Karnataka,Chikmagalur,29,d532,733658.96,3,True
+Karnataka,Tumkur,29,d548,1884663.34,3,True
+Karnataka,Bangalore,29,d525,8568996.52,3,True
+Karnataka,Mandya,29,d544,1127295.58,3,True
+Karnataka,Hassan,29,d539,1407471.84,3,True
+Karnataka,Dakshina Kannada,29,d534,1406780.18,3,True
+Karnataka,Kodagu,29,d541,553584.6599999999,3,True
+Karnataka,Mysore,29,d545,3417102.85,3,True
+Karnataka,Chamarajanagar,29,d531,704321.0399999999,2,True
+Karnataka,Gulbarga,29,d538,2695765.76,2,True
+Karnataka,Yadgir,29,d635,830923.92,1,True
+Karnataka,Kolar,29,d542,1268462.53,3,True
+Karnataka,Chikkaballapura,29,d630,1107302.36,2,True
+Karnataka,Bangalore Rural,29,d526,534577.8200000001,3,True
+Karnataka,Ramanagara,29,d631,921317.7200000001,3,True
+Kerala,Kasaragod,32,d558,720406.9199999999,3,True
+Kerala,Kannur,32,d557,2563056.8099999996,3,True
+Kerala,Wayanad,32,d567,736604.84,3,True
+Kerala,Kozhikode,32,d561,2978039.7800000003,3,True
+Kerala,Malappuram,32,d562,4931156.81,3,True
+Kerala,Palakkad,32,d563,2565595.77,3,True
+Kerala,Thrissur,32,d566,2839478.23,3,True
+Kerala,Ernakulam,32,d555,4549072.37,3,True
+Kerala,Idukki,32,d556,987707.28,3,True
+Kerala,Kottayam,32,d560,1912035.25,3,True
+Kerala,Alappuzha,32,d554,2600414.5300000003,3,True
+Kerala,Pathanamthitta,32,d564,1318079.49,3,True
+Kerala,Kollam,32,d559,1343122.76,3,True
+Kerala,Thiruvananthapuram,32,d565,2872576.96,3,True
+Ladakh,Leh(Ladakh),37,d009,66283.70000000001,3,True
+Ladakh,Kargil,37,d006,180169.77,2,True
+Lakshadweep,Lakshadweep,31,d553,47249.450000000004,3,True
+Madhya Pradesh,Sheopur,23,d431,239119.16,1,True
+Madhya Pradesh,Morena,23,d417,1752398.46,2,True
+Madhya Pradesh,Bhind,23,d395,1318951.06,2,True
+Madhya Pradesh,Gwalior,23,d407,1702999.68,2,True
+Madhya Pradesh,Datia,23,d401,1110954.0899999999,2,True
+Madhya Pradesh,Shivpuri,23,d432,2296406.72,1,True
+Madhya Pradesh,Tikamgarh,23,d434,1401528.15,0,True
+Madhya Pradesh,Chhatarpur,23,d398,1531099.9899999998,1,True
+Madhya Pradesh,Panna,23,d420,995850.1699999999,1,True
+Madhya Pradesh,Sagar,23,d425,3461613.26,2,True
+Madhya Pradesh,Damoh,23,d400,901691.1699999999,1,True
+Madhya Pradesh,Satna,23,d426,1714789.0699999998,1,True
+Madhya Pradesh,Rewa,23,d424,2405124.52,0,True
+Madhya Pradesh,Umaria,23,d436,685420.86,0,True
+Madhya Pradesh,Neemuch,23,d419,1256060.03,2,True
+Madhya Pradesh,Mandsaur,23,d416,1187526.8,2,True
+Madhya Pradesh,Ratlam,23,d423,2332842.81,2,True
+Madhya Pradesh,Ujjain,23,d435,1137190.8900000001,2,True
+Madhya Pradesh,Dewas,23,d402,1348035.92,2,True
+Madhya Pradesh,Dhar,23,d403,2405027.0300000003,2,True
+Madhya Pradesh,Indore,23,d410,2270129.3600000003,3,True
+Madhya Pradesh,Khargone (West Nimar),23,d414,2238327.2600000002,2,True
+Madhya Pradesh,Barwani,23,d393,750344.6,1,True
+Madhya Pradesh,Rajgarh,23,d422,1992003.1,1,True
+Madhya Pradesh,Vidisha,23,d437,1433327.0899999999,2,True
+Madhya Pradesh,Bhopal,23,d396,2907582.07,3,True
+Madhya Pradesh,Sehore,23,d427,1880684.94,2,True
+Madhya Pradesh,Raisen,23,d421,1136623.99,2,True
+Madhya Pradesh,Betul,23,d394,1816774.92,2,True
+Madhya Pradesh,Harda,23,d408,401866.42,2,True
+Madhya Pradesh,Hoshangabad,23,d409,1132488.72,2,True
+Madhya Pradesh,Katni,23,d413,878719.14,1,True
+Madhya Pradesh,Jabalpur,23,d411,2085294.06,2,True
+Madhya Pradesh,Narsimhapur,23,d418,1710635.0499999998,2,True
+Madhya Pradesh,Dindori,23,d404,483506.51,0,True
+Madhya Pradesh,Mandla,23,d415,825971.42,0,True
+Madhya Pradesh,Chhindwara,23,d399,2345472.96,2,True
+Madhya Pradesh,Seoni,23,d428,1371134.5,0,True
+Madhya Pradesh,Balaghat,23,d392,1893442.4100000001,0,True
+Madhya Pradesh,Guna,23,d406,1549579.45,1,True
+Madhya Pradesh,Ashoknagar,23,d391,1127151.15,1,True
+Madhya Pradesh,Shahdol,23,d429,853595.91,0,True
+Madhya Pradesh,Anuppur,23,d390,317143.28,0,True
+Madhya Pradesh,Sidhi,23,d433,1623637.89,1,True
+Madhya Pradesh,Singrauli,23,d638,937724.83,1,True
+Madhya Pradesh,Jhabua,23,d412,1562294.93,1,True
+Madhya Pradesh,Alirajpur,23,d639,701030.26,1,True
+Madhya Pradesh,Khandwa (East Nimar),23,d405,1267247.5299999998,2,True
+Madhya Pradesh,Burhanpur,23,d397,394616.10000000003,2,True
+Madhya Pradesh,Agar Malwa,23,d667,519475.565,1,True
+Madhya Pradesh,Shajapur,23,d430,519475.565,2,True
+Maharastra,Nandurbar,27,d486,1807745.87,1,True
+Maharastra,Dhule,27,d474,1602516.4200000002,2,True
+Maharastra,Jalgaon,27,d478,4232759.43,2,True
+Maharastra,Buldana,27,d472,3323019.29,2,True
+Maharastra,Akola,27,d467,1522136.45,3,True
+Maharastra,Washim,27,d499,1585870.02,0,True
+Maharastra,Amravati,27,d468,3124597.6799999997,3,True
+Maharastra,Wardha,27,d498,1566412.81,3,True
+Maharastra,Nagpur,27,d484,5207192.17,3,True
+Maharastra,Bhandara,27,d471,1071021.52,2,True
+Maharastra,Gondiya,27,d476,1833981.01,2,True
+Maharastra,Gadchiroli,27,d475,1176052.5,2,True
+Maharastra,Chandrapur,27,d473,1918708.6099999999,2,True
+Maharastra,Yavatmal,27,d500,1682854.22,2,True
+Maharastra,Nanded,27,d485,4487816.390000001,2,True
+Maharastra,Hingoli,27,d477,1295393.76,2,True
+Maharastra,Parbhani,27,d489,1794656.98,2,True
+Maharastra,Jalna,27,d479,997222.05,2,True
+Maharastra,Aurangabad,27,d469,3424541.59,2,True
+Maharastra,Nashik,27,d487,6012032.4,2,True
+Maharastra,Mumbai Suburban,27,d483,10052471.17,3,True
+Maharastra,Mumbai,27,d482,2182386.87,3,True
+Maharastra,Raigarh,27,d491,2182386.87,2,True
+Maharastra,Pune,27,d490,13547112.469999999,3,True
+Maharastra,Ahmadnagar,27,d466,6301153.62,3,True
+Maharastra,Bid,27,d470,2727515.51,2,True
+Maharastra,Latur,27,d481,2296703.2600000002,2,True
+Maharastra,Osmanabad,27,d488,1320239.25,2,True
+Maharastra,Solapur,27,d496,3715227.4000000004,2,True
+Maharastra,Satara,27,d494,1896370.1700000002,3,True
+Maharastra,Ratnagiri,27,d492,1206628.3599999999,2,True
+Maharastra,Sindhudurg,27,d495,439912.03,3,True
+Maharastra,Kolhapur,27,d480,2747077.36,3,True
+Maharastra,Sangli,27,d493,3174716.48,3,True
+Maharastra,Palghar,27,d665,5107673.585,3,True
+Maharastra,Thane,27,d497,5107673.585,3,True
+Manipur,Senapati,14,d257,391569.79,0,True
+Manipur,Tamenglong,14,d258,110511.49,0,True
+Manipur,Churachandpur,14,d254,289688.33,0,True
+Manipur,Bishnupur,14,d252,276724.82999999996,3,True
+Manipur,Thoubal,14,d259,396113.36,0,True
+Manipur,Imphal West,14,d256,580740.77,3,True
+Manipur,Imphal East,14,d255,544885.56,3,True
+Manipur,Ukhrul,14,d260,176630.75999999998,0,True
+Manipur,Chandel,14,d253,106811.41,0,True
+Meghalaya,South Garo Hills,17,d277,223277.69,0,True
+Meghalaya,Ribhoi,17,d276,247555.44999999998,0,True
+Meghalaya,East Khasi Hills,17,d274,974326.32,0,True
+Meghalaya,East Garo Hills,17,d273,135623.28,0,True
+Meghalaya,East Jantia Hills,17,d657,215596.39,0,True
+Meghalaya,North Garo Hills,17,d656,135623.28,0,True
+Meghalaya,South West Garo Hills,17,d663,383031.815,0,True
+Meghalaya,South West Khasi Hills,17,d658,284047.025,0,True
+Meghalaya,West Garo Hills,17,d278,383031.815,0,True
+Meghalaya,West Jaintia Hills,17,d275,215596.39,0,True
+Meghalaya,West Khasi Hills,17,d279,284047.025,0,True
+Mizoram,Mamit,15,d266,69860.99,3,True
+Mizoram,Kolasib,15,d263,80496.75,3,True
+Mizoram,Aizawl,15,d261,274256.03,3,True
+Mizoram,Champhai,15,d262,112786.31,3,True
+Mizoram,Serchhip,15,d268,35987.18,3,True
+Mizoram,Lunglei,15,d265,150565.21,3,True
+Mizoram,Lawngtlai,15,d264,210672.36000000002,0,True
+Nagaland,Mon,13,d247,199118.39,0,True
+Nagaland,Mokokchung,13,d246,152627.77,3,True
+Nagaland,Zunheboto,13,d251,119977.47,0,True
+Nagaland,Wokha,13,d250,94294.28,3,True
+Nagaland,Dimapur,13,d244,274536.66,3,True
+Nagaland,Phek,13,d248,110118.2,2,True
+Nagaland,Tuensang,13,d249,175520.74000000002,0,True
+Nagaland,Longleng,13,d615,36897.28,0,True
+Nagaland,Kiphire,13,d614,81458.03,0,True
+Nagaland,Kohima,13,d245,149654.47,3,True
+Nagaland,Peren,13,d613,125962.31,2,True
+NCT of Delhi,Central,7,d077,471572.79,3,True
+NCT of Delhi,East,7,d078,1839135.78,3,True
+NCT of Delhi,New Delhi,7,d079,1520181.245,3,True
+NCT of Delhi,North,7,d080,525790.46,3,True
+NCT of Delhi,North East,7,d081,1777423.8599999999,3,True
+NCT of Delhi,North West,7,d082,3323022.92,3,True
+NCT of Delhi,Shahdara,7,d671,1520181.245,3,True
+NCT of Delhi,South,7,d083,2142416.62,3,True
+NCT of Delhi,South East,7,d670,1520181.245,3,True
+NCT of Delhi,South West,7,d084,1262938.6300000001,3,True
+NCT of Delhi,West,7,d085,1168664.22,3,True
+Odisha,Bargarh,21,d347,1656741.7100000002,2,True
+Odisha,Jharsuguda,21,d357,666488.66,2,True
+Odisha,Sambalpur,21,d371,1142553.7,2,True
+Odisha,Debagarh,21,d351,184012.04,0,True
+Odisha,Sundargarh,21,d373,2458937.1,2,True
+Odisha,Kendujhar,21,d361,1888455.01,1,True
+Odisha,Mayurbhanj,21,d365,2284203.36,1,True
+Odisha,Baleshwar,21,d346,1987697.15,2,True
+Odisha,Bhadrak,21,d348,1655172.72,2,True
+Odisha,Kendrapara,21,d360,1082435.25,2,True
+Odisha,Jagatsinghapur,21,d355,1093680.99,3,True
+Odisha,Cuttack,21,d350,1926725.51,2,True
+Odisha,Jajapur,21,d356,1598093.21,2,True
+Odisha,Dhenkanal,21,d352,1242056.08,0,True
+Odisha,Anugul,21,d344,1448097.7999999998,0,True
+Odisha,Nayagarh,21,d367,944714.5800000001,2,True
+Odisha,Khordha,21,d362,1351714.12,3,True
+Odisha,Puri,21,d369,1821758.2,3,True
+Odisha,Ganjam,21,d354,3030365.84,2,True
+Odisha,Gajapati,21,d353,685844.9,1,True
+Odisha,Kandhamal,21,d359,222157.71,0,True
+Odisha,Baudh,21,d349,429966.21,2,True
+Odisha,Subarnapur,21,d372,357341.03,2,True
+Odisha,Balangir,21,d345,1661028.18,2,True
+Odisha,Nuapada,21,d368,379414.17,1,True
+Odisha,Kalahandi,21,d358,1877529.54,2,True
+Odisha,Rayagada,21,d370,1292823.4000000001,1,True
+Odisha,Nabarangapur,21,d366,1727959.2,1,True
+Odisha,Koraput,21,d363,1312803.6600000001,1,True
+Odisha,Malkangiri,21,d364,675110.78,1,True
+Puducherry,Yanam,34,d601,37946.16,3,True
+Puducherry,Puducherry,34,d600,1003491.25,3,True
+Puducherry,Mahe,34,d599,54237.98,3,True
+Puducherry,Karaikal,34,d598,167840.32,3,True
+Punjab,Kapurthala,3,d035,373479.13,3,True
+Punjab,Jalandhar,3,d034,2006854.83,3,True
+Punjab,Hoshiarpur,3,d033,1306794.44,3,True
+Punjab,Shahid Bhagat Singh Nagar,3,d040,394733.29000000004,3,True
+Punjab,Fatehgarh Sahib,3,d030,365535.09,3,True
+Punjab,Ludhiana,3,d036,4161591.76,3,True
+Punjab,Moga,3,d038,928825.15,3,True
+Punjab,Muktsar,3,d039,1019817.8,2,True
+Punjab,Faridkot,3,d029,257445.06,3,True
+Punjab,Bathinda,3,d028,1553438.88,3,True
+Punjab,Mansa,3,d037,766033.19,2,True
+Punjab,Patiala,3,d041,1317586.41,3,True
+Punjab,Amritsar,3,d027,3205200.76,3,True
+Punjab,Tarn Taran,3,d609,1118396.42,2,True
+Punjab,Rupnagar,3,d042,392798.16,3,True
+Punjab,Sahibzada Ajit Singh Nagar,3,d608,1753453.5499999998,3,True
+Punjab,Sangrur,3,d043,1020550.15,3,True
+Punjab,Barnala,3,d605,619146.26,3,True
+Punjab,Fazilka,3,d651,1124380.94,2,True
+Punjab,Firozpur,3,d031,612737.44,3,True
+Punjab,Gurdaspur,3,d032,2849462.85,3,True
+Punjab,Pathankot,3,d662,812408.98,3,True
+Rajasthan,Ganganagar,8,d100,1403216.79,2,True
+Rajasthan,Hanumangarh,8,d101,1499256.42,2,True
+Rajasthan,Bikaner,8,d093,2089915.15,2,True
+Rajasthan,Churu,8,d096,2052623.19,2,True
+Rajasthan,Jhunjhunun,8,d106,1666418.28,2,True
+Rajasthan,Alwar,8,d087,4718761.0,2,True
+Rajasthan,Bharatpur,8,d091,3103085.61,1,True
+Rajasthan,Dhaulpur,8,d098,1035876.5599999999,1,True
+Rajasthan,Karauli,8,d108,1358888.8599999999,1,True
+Rajasthan,Sawai Madhopur,8,d113,2204303.11,1,True
+Rajasthan,Dausa,8,d097,1134355.56,1,True
+Rajasthan,Jaipur,8,d102,7190946.359999999,2,True
+Rajasthan,Sikar,8,d114,3058723.38,2,True
+Rajasthan,Nagaur,8,d110,3614720.36,2,True
+Rajasthan,Jodhpur,8,d107,5428727.67,2,True
+Rajasthan,Jaisalmer,8,d103,1285530.02,2,True
+Rajasthan,Barmer,8,d090,2904005.3,2,True
+Rajasthan,Jalor,8,d104,1515270.97,1,True
+Rajasthan,Sirohi,8,d115,743522.98,1,True
+Rajasthan,Pali,8,d111,1474264.16,2,True
+Rajasthan,Ajmer,8,d086,2886562.82,2,True
+Rajasthan,Tonk,8,d116,826573.72,1,True
+Rajasthan,Bundi,8,d094,774941.55,1,True
+Rajasthan,Bhilwara,8,d092,2961304.1500000004,2,True
+Rajasthan,Rajsamand,8,d112,1224398.67,2,True
+Rajasthan,Dungarpur,8,d099,2093833.44,2,True
+Rajasthan,Banswara,8,d088,1291616.82,1,True
+Rajasthan,Chittaurgarh,8,d095,1377552.8900000001,2,True
+Rajasthan,Kota,8,d109,1869250.85,2,True
+Rajasthan,Baran,8,d089,1766377.5699999998,1,True
+Rajasthan,Jhalawar,8,d105,701672.6799999999,1,True
+Rajasthan,Udaipur,8,d117,2898141.5199999996,2,True
+Rajasthan,Pratapgarh,8,d629,1303564.7,1,True
+Sikkim,North  District,11,d226,36439.689999999995,3,True
+Sikkim,West District,11,d228,133019.25,3,True
+Sikkim,South District,11,d227,167075.64,3,True
+Sikkim,East District,11,d225,313341.32999999996,3,True
+Tamil Nadu,Thiruvallur,33,d589,4151815.8800000004,3,True
+Tamil Nadu,Chennai,33,d568,3911089.21,3,True
+Tamil Nadu,Kancheepuram,33,d574,5676379.76,3,True
+Tamil Nadu,Vellore,33,d595,3160287.26,3,True
+Tamil Nadu,Tiruvannamalai,33,d593,3019786.9699999997,3,True
+Tamil Nadu,Viluppuram,33,d596,4106329.0,2,True
+Tamil Nadu,Salem,33,d584,2752076.55,3,True
+Tamil Nadu,Namakkal,33,d580,1561818.47,3,True
+Tamil Nadu,Erode,33,d573,1956555.42,3,True
+Tamil Nadu,The Nilgiris,33,d587,501177.03,3,True
+Tamil Nadu,Dindigul,33,d572,2449059.14,3,True
+Tamil Nadu,Karur,33,d576,1653422.33,3,True
+Tamil Nadu,Tiruchirappalli,33,d591,2207337.59,3,True
+Tamil Nadu,Perambalur,33,d581,640452.9099999999,3,True
+Tamil Nadu,Ariyalur,33,d610,884920.29,2,True
+Tamil Nadu,Cuddalore,33,d570,3517896.9800000004,3,True
+Tamil Nadu,Nagapattinam,33,d579,980470.47,3,True
+Tamil Nadu,Thiruvarur,33,d590,806818.67,3,True
+Tamil Nadu,Thanjavur,33,d586,2642043.2800000003,3,True
+Tamil Nadu,Pudukkottai,33,d582,1181239.92,2,True
+Tamil Nadu,Sivaganga,33,d585,1134192.74,3,True
+Tamil Nadu,Madurai,33,d578,2283490.63,3,True
+Tamil Nadu,Theni,33,d588,1031559.7999999999,3,True
+Tamil Nadu,Virudhunagar,33,d597,2676885.19,3,True
+Tamil Nadu,Ramanathapuram,33,d583,947055.7,3,True
+Tamil Nadu,Thoothukkudi,33,d594,1175312.22,3,True
+Tamil Nadu,Tirunelveli,33,d592,3299045.8200000003,3,True
+Tamil Nadu,Kanniyakumari,33,d575,868208.23,3,True
+Tamil Nadu,Dharmapuri,33,d571,1610070.06,3,True
+Tamil Nadu,Krishnagiri,33,d577,1674604.75,3,True
+Tamil Nadu,Coimbatore,33,d569,3938646.13,3,True
+Tamil Nadu,Tiruppur,33,d634,2755289.32,3,True
+Telangana,Adilabad,36,d501,622634.22,2,True
+Telangana,Bhadradri Kothagudem,36,d690,1708024.3599999999,2,True
+Telangana,Hyderabad,36,d507,224533.78,3,True
+Telangana,Jagitial,36,d681,835031.9700000001,2,True
+Telangana,Jangoan,36,d689,281884.15,2,True
+Telangana,Jayashankar Bhupalapally,36,d687,310415.52,2,True
+Telangana,Jogulamba Gadwal,36,d695,952205.34,1,True
+Telangana,Kamareddy,36,d685,1738926.05,2,True
+Telangana,Karimnagar,36,d508,1430828.24,3,True
+Telangana,Khammam,36,d509,921570.42,3,True
+Telangana,Komaram Bheem Asifabad,36,d699,117236.8,1,True
+Telangana,Mahabubabad,36,d688,741836.59,2,True
+Telangana,Mahabubnagar,36,d512,544903.42,2,True
+Telangana,Mancherial,36,d684,980553.24,2,True
+Telangana,Medak,36,d513,655988.85,2,True
+Telangana,Medchal-Malkajgiri,36,d700,343726.33,3,True
+Telangana,Nagarkurnool,36,d694,1014259.4700000001,2,True
+Telangana,Nalgonda,36,d514,1612932.72,2,True
+Telangana,Nirmal,36,d680,1582220.75,2,True
+Telangana,Nizamabad,36,d516,958284.13,2,True
+Telangana,Peddapalli,36,d682,770818.3999999999,3,True
+Telangana,Rajanna Sircilla,36,d683,945624.46,2,True
+Telangana,Ranga Reddy,36,d518,9311171.26,3,True
+Telangana,Sangareddy,36,d691,2018295.69,2,True
+Telangana,Siddipet,36,d692,1052552.8399999999,2,True
+Telangana,Suryapet,36,d696,1070692.26,2,True
+Telangana,Vikarabad,36,d698,1107807.28,2,True
+Telangana,Wanaparthy,36,d693,290231.51,2,True
+Telangana,Warangal Rural,36,d522,530049.26,2,True
+Telangana,Warangal Urban,36,d686,1038563.8500000001,3,True
+Telangana,Yadadri Bhuvanagiri,36,d697,598256.39,2,True
+Tripura,Dhalai,16,d269,576179.44,0,True
+Tripura,Gomati,16,d654,441884.38,2,True
+Tripura,Khowai,16,d652,322292.44,0,True
+Tripura,North Tripura,16,d270,425562.74,0,True
+Tripura,Sepahijala,16,d653,338127.67000000004,2,True
+Tripura,South Tripura,16,d271,389277.53,2,True
+Tripura,Unakoti,16,d655,277698.06,0,True
+Tripura,West Tripura,16,d272,814336.4099999999,3,True
+Uttar Pradesh,Saharanpur,9,d177,3022933.9699999997,2,True
+Uttar Pradesh,Bijnor,9,d132,2981053.31,2,True
+Uttar Pradesh,Rampur,9,d176,3377883.56,2,True
+Uttar Pradesh,Jyotiba Phule Nagar,9,d154,1347237.26,2,True
+Uttar Pradesh,Meerut,9,d169,3007588.71,3,True
+Uttar Pradesh,Baghpat,9,d124,949045.36,2,True
+Uttar Pradesh,Gautam Buddha Nagar,9,d144,2692259.73,3,True
+Uttar Pradesh,Bulandshahr,9,d134,2231555.97,2,True
+Uttar Pradesh,Aligarh,9,d119,4405844.65,2,True
+Uttar Pradesh,Mahamaya Nagar,9,d163,1618210.79,2,True
+Uttar Pradesh,Mathura,9,d167,1880415.5,2,True
+Uttar Pradesh,Agra,9,d118,4535122.11,2,True
+Uttar Pradesh,Firozabad,9,d143,2002513.8,2,True
+Uttar Pradesh,Mainpuri,9,d166,1326897.26,2,True
+Uttar Pradesh,Bareilly,9,d130,5359723.32,1,True
+Uttar Pradesh,Pilibhit,9,d173,1892563.5699999998,1,True
+Uttar Pradesh,Shahjahanpur,9,d180,3518714.14,1,True
+Uttar Pradesh,Kheri,9,d159,3677643.6,1,True
+Uttar Pradesh,Sitapur,9,d183,5292389.57,1,True
+Uttar Pradesh,Hardoi,9,d150,3769657.13,1,True
+Uttar Pradesh,Unnao,9,d186,2911609.6799999997,1,True
+Uttar Pradesh,Lucknow,9,d162,5125402.800000001,3,True
+Uttar Pradesh,Farrukhabad,9,d141,1794777.78,1,True
+Uttar Pradesh,Kannauj,9,d155,843717.85,1,True
+Uttar Pradesh,Etawah,9,d139,861940.0700000001,2,True
+Uttar Pradesh,Auraiya,9,d122,1343039.8,2,True
+Uttar Pradesh,Kanpur Dehat,9,d156,2322804.4,1,True
+Uttar Pradesh,Kanpur Nagar,9,d157,4586216.0,3,True
+Uttar Pradesh,Jalaun,9,d151,1493195.7600000002,2,True
+Uttar Pradesh,Jhansi,9,d153,2734764.75,2,True
+Uttar Pradesh,Lalitpur,9,d161,1793064.9500000002,1,True
+Uttar Pradesh,Hamirpur,9,d149,575925.33,2,True
+Uttar Pradesh,Mahoba,9,d165,549473.45,1,True
+Uttar Pradesh,Banda,9,d128,2516562.09,1,True
+Uttar Pradesh,Chitrakoot,9,d136,829479.9199999999,1,True
+Uttar Pradesh,Fatehpur,9,d142,2607909.5,1,True
+Uttar Pradesh,Pratapgarh,9,d174,4264308.94,2,True
+Uttar Pradesh,Kaushambi,9,d158,2169562.78,1,True
+Uttar Pradesh,Allahabad,9,d120,6712691.45,2,True
+Uttar Pradesh,Bara Banki,9,d129,3413606.31,1,True
+Uttar Pradesh,Faizabad,9,d140,2063027.1300000001,2,True
+Uttar Pradesh,Ambedkar Nagar,9,d121,1658105.41,2,True
+Uttar Pradesh,Bahraich,9,d125,3968676.37,1,True
+Uttar Pradesh,Shrawasti,9,d181,453802.81,1,True
+Uttar Pradesh,Balrampur,9,d127,2038237.3,1,True
+Uttar Pradesh,Gonda,9,d147,4631288.37,1,True
+Uttar Pradesh,Siddharthnagar,9,d182,1696079.05,1,True
+Uttar Pradesh,Basti,9,d131,3478008.13,2,True
+Uttar Pradesh,Sant Kabir Nagar,9,d178,1942080.01,1,True
+Uttar Pradesh,Mahrajganj,9,d164,2839442.63,1,True
+Uttar Pradesh,Gorakhpur,9,d148,3019622.94,2,True
+Uttar Pradesh,Kushinagar,9,d160,4042542.2699999996,1,True
+Uttar Pradesh,Deoria,9,d137,2761860.79,2,True
+Uttar Pradesh,Azamgarh,9,d123,4450674.4,2,True
+Uttar Pradesh,Mau,9,d168,1620577.46,2,True
+Uttar Pradesh,Ballia,9,d126,2966412.7399999998,2,True
+Uttar Pradesh,Jaunpur,9,d152,3738313.63,2,True
+Uttar Pradesh,Ghazipur,9,d146,3687614.7,2,True
+Uttar Pradesh,Chandauli,9,d135,2536981.24,2,True
+Uttar Pradesh,Varanasi,9,d187,3714806.6,3,True
+Uttar Pradesh,Sant Ravidas Nagar (Bhadohi),9,d179,1746590.1300000001,2,True
+Uttar Pradesh,Mirzapur,9,d170,2039959.54,2,True
+Uttar Pradesh,Sonbhadra,9,d184,2059870.9300000002,1,True
+Uttar Pradesh,Etah,9,d138,1476367.6400000001,1,True
+Uttar Pradesh,Kanshiram Nagar,9,d633,660728.25,1,True
+Uttar Pradesh,Amethi,9,d640,1498889.615,1,True
+Uttar Pradesh,Budaun,9,d133,4234136.21,1,True
+Uttar Pradesh,Ghaziabad,9,d145,2764111.3899999997,3,True
+Uttar Pradesh,Hapur,9,d661,2764111.3899999997,3,True
+Uttar Pradesh,Moradabad,9,d171,2645400.42,2,True
+Uttar Pradesh,Muzaffarnagar,9,d172,2627441.285,2,True
+Uttar Pradesh,Rae Bareli,9,d175,3310209.23,1,True
+Uttar Pradesh,Sambhal,9,d659,2645400.42,1,True
+Uttar Pradesh,Shamli,9,d660,2627441.285,2,True
+Uttar Pradesh,Sultanpur,9,d185,1498889.615,2,True
+Uttarakhand,Uttarkashi,5,d057,351595.04,2,True
+Uttarakhand,Chamoli,5,d047,343763.48,2,True
+Uttarakhand,Rudraprayag,5,d054,148793.54,2,True
+Uttarakhand,Tehri Garhwal,5,d055,252775.67,2,True
+Uttarakhand,Dehradun,5,d049,1770810.73,3,True
+Uttarakhand,Garhwal,5,d052,510575.09,2,True
+Uttarakhand,Pithoragarh,5,d053,597877.1,3,True
+Uttarakhand,Bageshwar,5,d046,307991.045,2,True
+Uttarakhand,Almora,5,d045,307991.045,2,True
+Uttarakhand,Champawat,5,d048,243140.34,2,True
+Uttarakhand,Nainital,5,d051,918475.81,3,True
+Uttarakhand,Udham Singh Nagar,5,d056,2348982.93,2,True
+Uttarakhand,Hardwar,5,d050,2334037.21,2,True
+West Bengal,Darjiling,19,d309,1902568.75,3,True
+West Bengal,Jalpaiguri,19,d314,1835875.4900000002,2,True
+West Bengal,Koch Bihar,19,d308,2608631.8200000003,2,True
+West Bengal,Uttar Dinajpur,19,d311,2103703.5300000003,1,True
+West Bengal,Dakshin Dinajpur,19,d310,1761065.3699999999,2,True
+West Bengal,Maldah,19,d316,4535769.84,2,True
+West Bengal,Murshidabad,19,d319,6593815.369999999,2,True
+West Bengal,Birbhum,19,d307,4785682.78,2,True
+West Bengal,Nadia,19,d320,5515748.55,2,True
+West Bengal,North Twenty Four Pargana,19,d303,9184236.42,3,True
+West Bengal,Hugli,19,d312,6472073.399999999,3,True
+West Bengal,Bankura,19,d305,4325936.13,1,True
+West Bengal,Puruliya,19,d321,4407707.04,1,True
+West Bengal,Haora,19,d313,3785668.46,3,True
+West Bengal,Kolkata,19,d315,3268130.77,3,True
+West Bengal,South Twenty Four Pargana,19,d304,8127468.49,2,True
+West Bengal,Paschim Medinipur,19,d318,5446535.08,2,True
+West Bengal,Purba Medinipur,19,d317,4530625.42,2,True
+West Bengal,Paschim Barddhaman,19,d704,1827079.14,2,True
+West Bengal,Purba Barddhaman,19,d306,4157017.71,2,True

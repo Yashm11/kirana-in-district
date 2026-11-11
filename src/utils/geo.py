@@ -2,11 +2,13 @@
 
 Used by the A6 stage (src/analytics/a6_maps.py) and the Streamlit app.
 
-Boundaries: DataMeet Census-2011 districts (641 polygons, see src/data/download_boundaries.py).
-Our data has 706 NFHS-5 districts, many created after 2011, so a district is drawn only when it
-matches a polygon by name within its state (plus a small hand-made spelling map,
-config/boundary_name_map.csv). Nothing is guessed: unmatched districts are listed in the match
-report, and polygons without data are drawn grey.
+Boundaries: Local Government Directory (LGD) districts, 785 polygons including districts created
+up to 2023 (see src/data/download_lgd_boundaries.py). The older DataMeet Census-2011 file (641
+polygons, src/data/download_boundaries.py) is still readable with source="datameet2011".
+Our data has 706 NFHS-5 districts, so a district is drawn only when it matches a polygon by name
+within its state (plus a hand-made spelling map, config/boundary_name_map_lgd.csv or
+config/boundary_name_map.csv for the old file). Nothing is guessed: unmatched districts are listed
+in the match report, and polygons without data are drawn grey.
 
 Maps use plotly's tile-free Choropleth, so no external base map (and no third-party border) is
 involved; only the DataMeet polygons are drawn.
@@ -22,6 +24,7 @@ import plotly.graph_objects as go
 from src.utils.names import normalise_name
 from src.utils.paths import REPO_ROOT, get_dir
 
+DEFAULT_SOURCE = "lgd"
 SIMPLIFY_DEG = 0.01  # about 1 km: small files, still recognisable shapes
 CLUSTER_COLOURS = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#6250d6"]
 NO_DATA_GREY = "#dddcd6"
@@ -43,13 +46,43 @@ INDICATOR_LABELS = {
 
 
 # ---------------------------------------------------------------- boundaries
-def load_polygons(simplify: float | None = SIMPLIFY_DEG) -> gpd.GeoDataFrame:
+def load_polygons(
+    simplify: float | None = SIMPLIFY_DEG, source: str = DEFAULT_SOURCE
+) -> gpd.GeoDataFrame:
     """District polygons with modern state codes and a name key.
 
-    Columns: poly_id, poly_district, poly_state, state_code, key, geometry. The 2011 file lists
-    Telangana's old districts under Andhra Pradesh and Ladakh under Jammu & Kashmir;
-    config/boundary_state_fix.csv gives them their current state code.
+    Columns: poly_id, poly_district, poly_state, state_code, key, geometry. `source` is "lgd"
+    (default) or "datameet2011".
     """
+    g = _read_lgd() if source == "lgd" else _read_datameet_2011()
+    g["key"] = g["poly_district"].map(normalise_name)
+    if simplify:  # None keeps full resolution (used when merging districts into states)
+        g["geometry"] = g.geometry.simplify(simplify, preserve_topology=True).set_precision(0.001)
+    return g[["poly_id", "poly_district", "poly_state", "state_code", "key", "geometry"]]
+
+
+def _read_lgd() -> gpd.GeoDataFrame:
+    """LGD districts. The ids follow the LGD district code, so they stay stable across rebuilds.
+
+    LGD already uses current state codes (Telangana 36, Ladakh 37); the merged Dadra & Nagar
+    Haveli and Daman & Diu is 38 there but 25 in our NFHS state codes.
+    """
+    g = gpd.read_parquet(get_dir("raw") / "boundaries" / "lgd" / "LGD_Districts.parquet")
+    g["poly_district"] = g["dtname"].str.strip()
+    g["poly_state"] = g["stname"].str.strip().str.title()
+    g["state_code"] = g["state_lgd"].astype(int).replace({38: 25})
+    # Mirpur and Muzaffarabad (J&K, no LGD code) both carry 0, so fall back to the object id
+    g["poly_id"] = [
+        f"d{int(c):03d}" if c else f"o{int(o):03d}"
+        for c, o in zip(g["dist_lgd"], g["OBJECTID"], strict=True)
+    ]
+    return g.to_crs(4326)
+
+
+def _read_datameet_2011() -> gpd.GeoDataFrame:
+    """DataMeet Census-2011 districts. The 2011 file lists Telangana's old districts under
+    Andhra Pradesh and Ladakh under Jammu & Kashmir; config/boundary_state_fix.csv gives them
+    their current state code."""
     g = gpd.read_file(get_dir("raw") / "boundaries" / "2011_Dist.shp")
     g["poly_district"] = g["DISTRICT"].str.strip()
     g["poly_state"] = g["ST_NM"].str.strip()
@@ -61,11 +94,8 @@ def load_polygons(simplify: float | None = SIMPLIFY_DEG) -> gpd.GeoDataFrame:
         how="left",
     )
     g["state_code"] = g["modern_state_code"].fillna(g["ST_CEN_CD"]).astype(int)
-    g["key"] = g["poly_district"].map(normalise_name)
     g["poly_id"] = [f"p{i:03d}" for i in range(len(g))]
-    if simplify:  # None keeps full resolution (used when merging districts into states)
-        g["geometry"] = g.geometry.simplify(simplify, preserve_topology=True).set_precision(0.001)
-    return g[["poly_id", "poly_district", "poly_state", "state_code", "key", "geometry"]]
+    return g
 
 
 def to_geojson(gdf: gpd.GeoDataFrame, id_col: str) -> dict:
@@ -73,13 +103,15 @@ def to_geojson(gdf: gpd.GeoDataFrame, id_col: str) -> dict:
     return json.loads(gdf[[id_col, "geometry"]].to_json())
 
 
-def dissolve_states(simplify: float = SIMPLIFY_DEG) -> gpd.GeoDataFrame:
+def dissolve_states(
+    simplify: float = SIMPLIFY_DEG, source: str = DEFAULT_SOURCE
+) -> gpd.GeoDataFrame:
     """One polygon per modern state code.
 
     Districts are merged at full resolution first and simplified afterwards; simplifying each
     district first leaves thin gaps between neighbours.
     """
-    full = load_polygons(simplify=None)
+    full = load_polygons(simplify=None, source=source)
     s = full.dissolve(by="state_code").reset_index()
     s["geometry"] = s.geometry.simplify(simplify, preserve_topology=True).set_precision(0.001)
     s["state_id"] = s["state_code"].astype(str)
@@ -87,22 +119,25 @@ def dissolve_states(simplify: float = SIMPLIFY_DEG) -> gpd.GeoDataFrame:
 
 
 # ---------------------------------------------------------------- matching
-def read_boundary_overrides() -> dict[tuple[str, str], str]:
+def read_boundary_overrides(source: str = DEFAULT_SOURCE) -> dict[tuple[str, str], str]:
     """{(NFHS state, normalised NFHS district): normalised polygon district}."""
-    m = pd.read_csv(REPO_ROOT / "config" / "boundary_name_map.csv")
+    name = "boundary_name_map_lgd.csv" if source == "lgd" else "boundary_name_map.csv"
+    m = pd.read_csv(REPO_ROOT / "config" / name)
     return {
         (r.state, normalise_name(r.source_name)): normalise_name(r.polygon_district)
         for r in m.itertuples()
     }
 
 
-def match_to_polygons(features: pd.DataFrame, polys: gpd.GeoDataFrame) -> pd.DataFrame:
+def match_to_polygons(
+    features: pd.DataFrame, polys: gpd.GeoDataFrame, source: str = DEFAULT_SOURCE
+) -> pd.DataFrame:
     """Add `poly_id` (NaN when not drawn) to the features by name within the same state.
 
     features needs: state, district, state_code. A district matches a polygon when the
     normalised names are equal (after the hand-made spelling map) and the state codes agree.
     """
-    overrides = read_boundary_overrides()
+    overrides = read_boundary_overrides(source)
     f = features.copy()
     f["key"] = [
         overrides.get((s, normalise_name(d)), normalise_name(d))

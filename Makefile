@@ -7,6 +7,7 @@ setup:
 a0:
 	uv run python -m src.data.download_bigbasket
 	uv run python -m src.data.download_boundaries
+	uv run python -m src.data.download_lgd_boundaries
 	uv run python -m src.data.check_manual_files
 
 a1:

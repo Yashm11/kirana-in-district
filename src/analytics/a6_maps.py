@@ -3,7 +3,7 @@
 Run: uv run python -m src.analytics.a6_maps     (or `make a6`)
 
 Reads : data/processed/district_clusters.parquet (A4), opportunity_index.csv (A5),
-        data/raw/boundaries/2011_Dist.shp (src/data/download_boundaries.py)
+        data/raw/boundaries/lgd/LGD_Districts.parquet (src/data/download_lgd_boundaries.py)
 Writes: data/processed/map_districts.geojson, map_states.geojson   simplified polygons
         data/processed/map_districts.csv, map_states.csv           one row per polygon
         data/processed/map_match_report.csv                       NFHS-5 districts: drawn or not
@@ -11,9 +11,10 @@ Writes: data/processed/map_districts.geojson, map_states.geojson   simplified po
         (the HTML pulls plotly.js from a CDN, so it needs internet to open)
 
 Reading the maps
-    * The boundary file is Census 2011, so districts created later (many in Telangana, Gujarat,
-      Chhattisgarh, ...) have no polygon. A district is drawn only if its name matches a polygon
-      within its state; everything else is listed in map_match_report.csv, never guessed.
+    * The boundary file is the LGD district layer (districts up to 2023). NFHS-5 was surveyed
+      on 2019-21 districts, so a district that was split later is drawn at its current, smaller
+      extent. A district is drawn only if its name matches a polygon within its state;
+      everything else is listed in map_match_report.csv, never guessed.
     * Spend is state-level, so spend maps are uniform inside a state (apart from urban share).
     * Opportunity maps show the relative score of the district's cluster, not a district estimate.
 """
@@ -165,13 +166,15 @@ def main() -> None:
     cfg = load_config()
     processed = get_dir("processed")
     clusters_path = processed / cfg["files"]["district_clusters"]
-    shp = get_dir("raw") / "boundaries" / "2011_Dist.shp"
+    shp = get_dir("raw") / "boundaries" / "lgd" / "LGD_Districts.parquet"
     if not clusters_path.exists() or not shp.exists():
         print("A6 SKIPPED:")
         if not clusters_path.exists():
             print(f"  {clusters_path.name} not found (run A3 and A4).")
         if not shp.exists():
-            print("  boundary file missing: run `uv run python -m src.data.download_boundaries`.")
+            print(
+                "  boundary file missing: run `uv run python -m src.data.download_lgd_boundaries`."
+            )
         return
 
     feats = pd.read_parquet(clusters_path)
