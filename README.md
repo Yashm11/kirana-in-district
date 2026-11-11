@@ -32,7 +32,8 @@ uv sync          # install dependencies from uv.lock
 make a0          # download BigBasket, list which hand-downloaded files are present
 make all         # run every stage (a0 ... a5)
 make a1          # or run one stage (a0 ... a5)
-make app         # open the results viewer (Streamlit) in your browser
+make app         # open the v1 results viewer (Streamlit) in your browser
+make kid         # open the K.I.D dashboard: which pack goes to which district (needs make a6 a7)
 make test        # pytest
 make lint        # ruff
 ```
@@ -53,6 +54,7 @@ Kaggle needs a token in `KAGGLE_API_TOKEN` or `~/.kaggle/access_token`.
 | A4 | Cluster districts: StandardScaler, PCA, KMeans, silhouette, sensitivity check |
 | A5 | Whitespace score (relative) and recommendations table |
 | A6 | Interactive state and district maps (`reports/maps/*.html`, and the Maps page of `make app`) |
+| A7 | DuckDB warehouse, district scoring and brand pack recommendations (`data/warehouse/kid.duckdb`, served by `make kid`) |
 
 ## Method
 

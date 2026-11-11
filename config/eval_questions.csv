@@ -1,0 +1,31 @@
+id,difficulty,question,tool,category,brand,states,top_n,district
+1,easy,Which pack of Maggi should go to which districts?,pack_plan,noodles_pasta,Maggi,,,
+2,easy,Maggi packs for Bihar,pack_plan,noodles_pasta,Maggi,Bihar,,
+3,easy,Which tea pack should we send to Kerala?,pack_plan,tea,,Kerala,,
+4,easy,Top 10 biscuit districts,pack_plan,biscuits,,,10,
+5,easy,Top 5 shampoo districts in Uttar Pradesh,pack_plan,shampoo,,Uttar Pradesh,5,
+6,easy,What pack size should Fortune oil have in Gujarat?,pack_plan,edible_oil_ghee,Fortune,Gujarat,,
+7,easy,Aashirvaad atta packs for Punjab and Haryana,pack_plan,atta_flour,Aashirvaad,Punjab|Haryana,,
+8,easy,Which rice pack goes to Tamil Nadu?,pack_plan,rice,,Tamil Nadu,,
+9,easy,Britannia packs for West Bengal,pack_plan,biscuits,Britannia,West Bengal,,
+10,easy,Surf Excel packs for Maharashtra,pack_plan,laundry_detergent,Surf Excel,Maharastra,,
+11,easy,Which detergent pack should go to Rajasthan?,pack_plan,laundry_detergent,,Rajasthan,,
+12,easy,Namkeen packs for Madhya Pradesh,pack_plan,namkeen_snacks,,Madhya Pradesh,,
+13,easy,Top 20 spices districts,pack_plan,spices_masala,,,20,
+14,easy,Red Label tea packs for Assam,pack_plan,tea,Red Label,Assam,,
+15,easy,Dettol soap packs for Odisha,pack_plan,personal_wash,Dettol,Odisha,,
+16,easy,Why does Patna get this tea pack?,explain_district,tea,,,,Patna
+17,easy,Explain the Maggi pack for Pune,explain_district,noodles_pasta,Maggi,,,Pune
+18,easy,Why does Lucknow get this shampoo pack?,explain_district,shampoo,,,,Lucknow
+19,easy,Explain the rice pack for Jaipur,explain_district,rice,,,,Jaipur
+20,easy,Which snacks should go to Delhi?,pack_plan,namkeen_snacks,,NCT of Delhi,,
+21,easy,Top 3 atta districts in Bihar,pack_plan,atta_flour,,Bihar,3,
+22,easy,Daawat rice for Haryana,pack_plan,rice,Daawat,Haryana,,
+23,easy,Cooking oil packs for Karnataka,pack_plan,edible_oil_ghee,,Karnataka,,
+24,easy,Which chai pack should Jharkhand get?,pack_plan,tea,,Jharkhand,,
+25,hard,Which pack of Dove should go to Kerala? (it sells soap and shampoo),pack_plan,personal_wash|shampoo,Dove,Kerala,,
+26,hard,Which noodle packs should we push in the north-east?,pack_plan,noodles_pasta,,Assam|Meghalaya|Mizoram|Nagaland|Manipur|Tripura|Arunachal Pradesh|Sikkim,,
+27,hard,Biggest 5 districts for ghee in the south,pack_plan,edible_oil_ghee,,,5,
+28,hard,Mageee packs for Goa,pack_plan,noodles_pasta,Maggi,Goa,,
+29,hard,Which pack of Lays should go to Bihar?,none,,,,,
+30,hard,What is the weather in Patna?,none,,,,,
