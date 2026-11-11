@@ -1,27 +1,27 @@
-level,item_code,item_name,target_category,recall_days,note
-05,102,rice - other sources,rice,30,excludes PDS (101) and free (061)
-05,108,wheat/atta - other sources,atta_flour,30,excludes PDS (107) and free (062)
-05,110,maida,atta_flour,30,
-05,111,"suji, rawa",atta_flour,30,
-05,181,mustard oil,edible_oil_ghee,7,
-05,184,"refined oil (sunflower, soyabean, palm, vegetable)",edible_oil_ghee,7,
-05,182,groundnut oil,edible_oil_ghee,7,
-05,183,coconut oil,edible_oil_ghee,7,
-05,095,"edible oil: others (vanaspati, margarine)",edible_oil_ghee,7,excludes PDS (188) and free (075)
-05,164,ghee,edible_oil_ghee,7,
-05,256,dry chillies,spices_masala,7,
-05,254,turmeric,spices_masala,7,
-05,252,cumin (jeera),spices_masala,7,
-05,253,coriander (dhania),spices_masala,7,
-05,258,curry powder,spices_masala,7,
-05,255,black pepper,spices_masala,7,
-05,261,other spices,spices_masala,7,excludes garlic ginger tamarind oilseeds poppy
-05,270,tea: cups,tea,7,cups and leaf are alternative ways of recording tea
-05,271,tea: leaf,tea,7,
-06,013,biscuits,biscuits,7,
-06,292,"papad, bhujia, namkeen, mixture, chanachur",namkeen_snacks,7,
-06,293,"chips, nachos, puffs, wafers",namkeen_snacks,7,
-06,015,noodles,noodles_pasta,7,no separate pasta code
-09,466,"washing soap/soda/powder/liquid detergent",laundry_detergent,30,
-09,450,"toilet soap, body-wash, hand-wash, shower gel, face-wash",personal_wash,30,includes face-wash
-09,453,"shampoo, conditioner, hair serum/gel, hair cream",shampoo,30,
+level,item_code,item_name,target_category,recall_days,note,qty_basis,qty_factor
+05,102,rice - other sources,rice,30,excludes PDS (101) and free (061),g,1000
+05,108,wheat/atta - other sources,atta_flour,30,excludes PDS (107) and free (062),g,1000
+05,110,maida,atta_flour,30,,g,1000
+05,111,"suji, rawa",atta_flour,30,,g,1000
+05,181,mustard oil,edible_oil_ghee,7,,ml,1000
+05,184,"refined oil (sunflower, soyabean, palm, vegetable)",edible_oil_ghee,7,,ml,1000
+05,182,groundnut oil,edible_oil_ghee,7,,ml,1000
+05,183,coconut oil,edible_oil_ghee,7,,ml,1000
+05,095,"edible oil: others (vanaspati, margarine)",edible_oil_ghee,7,excludes PDS (188) and free (075),ml,1000
+05,164,ghee,edible_oil_ghee,7,,ml,1000
+05,256,dry chillies,spices_masala,7,,g,1
+05,254,turmeric,spices_masala,7,,g,1
+05,252,cumin (jeera),spices_masala,7,,g,1
+05,253,coriander (dhania),spices_masala,7,,g,1
+05,258,curry powder,spices_masala,7,,g,1
+05,255,black pepper,spices_masala,7,,g,1
+05,261,other spices,spices_masala,7,excludes garlic ginger tamarind oilseeds poppy,g,1
+05,270,tea: cups,tea,7,cups and leaf are alternative ways of recording tea,,
+05,271,tea: leaf,tea,7,,g,1
+06,013,biscuits,biscuits,7,,,
+06,292,"papad, bhujia, namkeen, mixture, chanachur",namkeen_snacks,7,,g,1000
+06,293,"chips, nachos, puffs, wafers",namkeen_snacks,7,,,
+06,015,noodles,noodles_pasta,7,no separate pasta code,,
+09,466,washing soap/soda/powder/liquid detergent,laundry_detergent,30,,,
+09,450,"toilet soap, body-wash, hand-wash, shower gel, face-wash",personal_wash,30,includes face-wash,,
+09,453,"shampoo, conditioner, hair serum/gel, hair cream",shampoo,30,,,

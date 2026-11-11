@@ -1,4 +1,4 @@
-.PHONY: setup a0 a1 a2 a3 a4 a5 a5-district a6 app check test lint all
+.PHONY: setup a0 a1 a2 a3 a3b a4 a5 a5-district a6 app check test lint all
 
 setup:
 	uv sync
@@ -27,6 +27,10 @@ a3:
 	uv run python -m src.data.extract_hces_lookups
 	uv run python -m src.analytics.a3_district_features
 
+# HCES quantities: unit prices and monthly quantity per household (state x rural/urban)
+a3b:
+	uv run python -m src.analytics.a3b_hces_unit_values
+
 a4:
 	uv run python -m src.analytics.a4_cluster_districts
 
@@ -47,4 +51,4 @@ test:
 lint:
 	uv run ruff check .
 
-all: a0 a1 a2 a3 a4 a5 a6
+all: a0 a1 a2 a3 a3b a4 a5 a6
