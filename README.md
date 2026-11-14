@@ -8,6 +8,12 @@ Open-data analysis of pack-price gaps and district whitespace in Indian FMCG, wi
 
 Which pack size and price point should a packaged-goods brand push in which type of Indian district? Only public data and proxies are used. There is no company sales data.
 
+## Example
+
+Ask the dashboard which Maggi pack to send where. Here it answers: **the 280 g pack, at an average of Rs 52.5, fits 21 districts** (highlighted on the map, in north-east India). For 576 of the 706 districts, no listed pack is close to a week's budget, because the scraped catalogue has no small packs. That gap is itself a finding.
+
+![K.I.D dashboard: Maggi noodles, 280 g pack, 21 districts highlighted at Rs 52.5](data/assets/kirana_in_district_example.png)
+
 ## Headline result
 
 _TODO: filled in after A5 runs._
